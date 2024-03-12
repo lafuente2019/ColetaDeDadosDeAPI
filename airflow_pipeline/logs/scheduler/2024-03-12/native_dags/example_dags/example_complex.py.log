@@ -702,3 +702,801 @@
 [2024-03-11 23:34:46,380] {logging_mixin.py:115} INFO - [2024-03-11 23:34:46,380] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-03-11 23:34:46,419] {logging_mixin.py:115} INFO - [2024-03-11 23:34:46,419] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2024-03-11 23:34:46,445] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.181 seconds
+[2024-03-11 23:35:28,112] {processor.py:153} INFO - Started process (PID=55908) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:35:28,114] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:35:28,116] {logging_mixin.py:115} INFO - [2024-03-11 23:35:28,116] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:35:28,141] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:35:28,176] {logging_mixin.py:115} INFO - [2024-03-11 23:35:28,176] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:35:28,206] {logging_mixin.py:115} INFO - [2024-03-11 23:35:28,206] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:35:28,228] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2024-03-11 23:36:06,524] {processor.py:153} INFO - Started process (PID=56413) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:36:06,526] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:36:06,527] {logging_mixin.py:115} INFO - [2024-03-11 23:36:06,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:36:06,547] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:36:06,597] {logging_mixin.py:115} INFO - [2024-03-11 23:36:06,597] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:36:06,641] {logging_mixin.py:115} INFO - [2024-03-11 23:36:06,640] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:36:06,670] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.152 seconds
+[2024-03-11 23:36:43,476] {processor.py:153} INFO - Started process (PID=56640) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:36:43,477] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:36:43,478] {logging_mixin.py:115} INFO - [2024-03-11 23:36:43,478] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:36:43,496] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:36:43,530] {logging_mixin.py:115} INFO - [2024-03-11 23:36:43,530] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:36:43,558] {logging_mixin.py:115} INFO - [2024-03-11 23:36:43,558] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:36:43,581] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2024-03-11 23:37:21,288] {processor.py:153} INFO - Started process (PID=56916) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:37:21,291] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:37:21,293] {logging_mixin.py:115} INFO - [2024-03-11 23:37:21,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:37:21,330] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:37:21,366] {logging_mixin.py:115} INFO - [2024-03-11 23:37:21,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:37:21,412] {logging_mixin.py:115} INFO - [2024-03-11 23:37:21,412] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:37:21,443] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.170 seconds
+[2024-03-11 23:38:02,673] {processor.py:153} INFO - Started process (PID=57302) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:38:02,676] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:38:02,678] {logging_mixin.py:115} INFO - [2024-03-11 23:38:02,678] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:38:02,701] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:38:02,734] {logging_mixin.py:115} INFO - [2024-03-11 23:38:02,734] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:38:02,766] {logging_mixin.py:115} INFO - [2024-03-11 23:38:02,765] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:38:02,790] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2024-03-11 23:38:38,866] {processor.py:153} INFO - Started process (PID=57521) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:38:38,868] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:38:38,869] {logging_mixin.py:115} INFO - [2024-03-11 23:38:38,869] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:38:38,889] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:38:38,925] {logging_mixin.py:115} INFO - [2024-03-11 23:38:38,924] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:38:38,958] {logging_mixin.py:115} INFO - [2024-03-11 23:38:38,958] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:38:38,982] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2024-03-11 23:39:15,926] {processor.py:153} INFO - Started process (PID=57749) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:39:15,928] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:39:15,929] {logging_mixin.py:115} INFO - [2024-03-11 23:39:15,929] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:39:15,949] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:39:15,984] {logging_mixin.py:115} INFO - [2024-03-11 23:39:15,984] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:39:16,016] {logging_mixin.py:115} INFO - [2024-03-11 23:39:16,016] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:39:16,042] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.123 seconds
+[2024-03-11 23:39:55,135] {processor.py:153} INFO - Started process (PID=57987) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:39:55,137] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:39:55,138] {logging_mixin.py:115} INFO - [2024-03-11 23:39:55,138] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:39:55,157] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:39:55,192] {logging_mixin.py:115} INFO - [2024-03-11 23:39:55,192] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:39:55,222] {logging_mixin.py:115} INFO - [2024-03-11 23:39:55,222] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:39:55,245] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2024-03-11 23:40:41,094] {processor.py:153} INFO - Started process (PID=58312) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:40:41,096] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:40:41,098] {logging_mixin.py:115} INFO - [2024-03-11 23:40:41,097] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:40:41,133] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:40:41,176] {logging_mixin.py:115} INFO - [2024-03-11 23:40:41,176] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:40:41,216] {logging_mixin.py:115} INFO - [2024-03-11 23:40:41,216] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:40:41,241] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.157 seconds
+[2024-03-11 23:41:31,477] {processor.py:153} INFO - Started process (PID=58816) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:41:31,478] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:41:31,479] {logging_mixin.py:115} INFO - [2024-03-11 23:41:31,479] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:41:31,503] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:41:31,557] {logging_mixin.py:115} INFO - [2024-03-11 23:41:31,556] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:41:31,601] {logging_mixin.py:115} INFO - [2024-03-11 23:41:31,601] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:41:31,628] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.156 seconds
+[2024-03-11 23:42:13,562] {processor.py:153} INFO - Started process (PID=59301) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:42:13,564] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:42:13,565] {logging_mixin.py:115} INFO - [2024-03-11 23:42:13,565] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:42:13,601] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:42:13,648] {logging_mixin.py:115} INFO - [2024-03-11 23:42:13,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:42:13,725] {logging_mixin.py:115} INFO - [2024-03-11 23:42:13,724] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:42:13,785] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.234 seconds
+[2024-03-11 23:42:53,496] {processor.py:153} INFO - Started process (PID=59682) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:42:53,497] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:42:53,499] {logging_mixin.py:115} INFO - [2024-03-11 23:42:53,498] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:42:53,524] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:42:53,570] {logging_mixin.py:115} INFO - [2024-03-11 23:42:53,570] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:42:53,603] {logging_mixin.py:115} INFO - [2024-03-11 23:42:53,603] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:42:53,624] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.135 seconds
+[2024-03-11 23:43:34,380] {processor.py:153} INFO - Started process (PID=60070) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:43:34,383] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:43:34,385] {logging_mixin.py:115} INFO - [2024-03-11 23:43:34,384] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:43:34,413] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:43:34,457] {logging_mixin.py:115} INFO - [2024-03-11 23:43:34,456] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:43:34,503] {logging_mixin.py:115} INFO - [2024-03-11 23:43:34,502] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:43:34,523] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.152 seconds
+[2024-03-11 23:44:10,089] {processor.py:153} INFO - Started process (PID=60380) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:44:10,091] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:44:10,092] {logging_mixin.py:115} INFO - [2024-03-11 23:44:10,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:44:10,117] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:44:10,162] {logging_mixin.py:115} INFO - [2024-03-11 23:44:10,161] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:44:10,209] {logging_mixin.py:115} INFO - [2024-03-11 23:44:10,209] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:44:10,237] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.156 seconds
+[2024-03-11 23:45:01,286] {processor.py:153} INFO - Started process (PID=60849) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:45:01,288] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:45:01,289] {logging_mixin.py:115} INFO - [2024-03-11 23:45:01,289] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:45:01,317] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:45:01,366] {logging_mixin.py:115} INFO - [2024-03-11 23:45:01,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:45:01,410] {logging_mixin.py:115} INFO - [2024-03-11 23:45:01,409] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:45:01,438] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.158 seconds
+[2024-03-11 23:45:40,575] {processor.py:153} INFO - Started process (PID=61272) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:45:40,576] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:45:40,577] {logging_mixin.py:115} INFO - [2024-03-11 23:45:40,577] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:45:40,627] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:45:40,668] {logging_mixin.py:115} INFO - [2024-03-11 23:45:40,668] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:45:40,710] {logging_mixin.py:115} INFO - [2024-03-11 23:45:40,710] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:45:40,749] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.179 seconds
+[2024-03-11 23:46:24,154] {processor.py:153} INFO - Started process (PID=61710) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:46:24,156] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:46:24,157] {logging_mixin.py:115} INFO - [2024-03-11 23:46:24,157] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:46:24,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:46:24,223] {logging_mixin.py:115} INFO - [2024-03-11 23:46:24,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:46:24,269] {logging_mixin.py:115} INFO - [2024-03-11 23:46:24,269] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:46:24,300] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.151 seconds
+[2024-03-11 23:47:09,211] {processor.py:153} INFO - Started process (PID=62215) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:47:09,213] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:47:09,214] {logging_mixin.py:115} INFO - [2024-03-11 23:47:09,214] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:47:09,247] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:47:09,284] {logging_mixin.py:115} INFO - [2024-03-11 23:47:09,283] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:47:09,328] {logging_mixin.py:115} INFO - [2024-03-11 23:47:09,328] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:47:09,349] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.153 seconds
+[2024-03-11 23:47:50,071] {processor.py:153} INFO - Started process (PID=62581) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:47:50,073] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:47:50,075] {logging_mixin.py:115} INFO - [2024-03-11 23:47:50,074] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:47:50,201] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:47:50,397] {logging_mixin.py:115} INFO - [2024-03-11 23:47:50,396] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:47:50,486] {logging_mixin.py:115} INFO - [2024-03-11 23:47:50,485] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:47:50,524] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.470 seconds
+[2024-03-11 23:48:35,816] {processor.py:153} INFO - Started process (PID=63037) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:48:35,818] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:48:35,821] {logging_mixin.py:115} INFO - [2024-03-11 23:48:35,821] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:48:35,852] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:48:35,891] {logging_mixin.py:115} INFO - [2024-03-11 23:48:35,891] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:48:35,929] {logging_mixin.py:115} INFO - [2024-03-11 23:48:35,929] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:48:35,955] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.145 seconds
+[2024-03-11 23:49:15,627] {processor.py:153} INFO - Started process (PID=63459) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:49:15,632] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:49:15,633] {logging_mixin.py:115} INFO - [2024-03-11 23:49:15,633] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:49:15,688] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:49:15,734] {logging_mixin.py:115} INFO - [2024-03-11 23:49:15,734] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:49:15,763] {logging_mixin.py:115} INFO - [2024-03-11 23:49:15,763] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:49:15,801] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.182 seconds
+[2024-03-11 23:49:54,405] {processor.py:153} INFO - Started process (PID=63843) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:49:54,407] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:49:54,409] {logging_mixin.py:115} INFO - [2024-03-11 23:49:54,409] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:49:54,484] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:49:54,599] {logging_mixin.py:115} INFO - [2024-03-11 23:49:54,599] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:49:54,634] {logging_mixin.py:115} INFO - [2024-03-11 23:49:54,634] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:49:54,656] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.261 seconds
+[2024-03-11 23:50:36,466] {processor.py:153} INFO - Started process (PID=64382) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:50:36,468] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:50:36,469] {logging_mixin.py:115} INFO - [2024-03-11 23:50:36,469] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:50:36,491] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:50:36,523] {logging_mixin.py:115} INFO - [2024-03-11 23:50:36,522] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:50:36,555] {logging_mixin.py:115} INFO - [2024-03-11 23:50:36,555] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:50:36,578] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2024-03-11 23:51:21,199] {processor.py:153} INFO - Started process (PID=64995) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:51:21,201] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:51:21,202] {logging_mixin.py:115} INFO - [2024-03-11 23:51:21,202] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:51:21,231] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:51:21,273] {logging_mixin.py:115} INFO - [2024-03-11 23:51:21,272] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:51:21,319] {logging_mixin.py:115} INFO - [2024-03-11 23:51:21,318] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:51:21,344] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.155 seconds
+[2024-03-11 23:52:00,365] {processor.py:153} INFO - Started process (PID=65585) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:52:00,366] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:52:00,367] {logging_mixin.py:115} INFO - [2024-03-11 23:52:00,367] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:52:00,390] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:52:00,424] {logging_mixin.py:115} INFO - [2024-03-11 23:52:00,424] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:52:00,451] {logging_mixin.py:115} INFO - [2024-03-11 23:52:00,450] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:52:00,473] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2024-03-11 23:52:39,846] {processor.py:153} INFO - Started process (PID=66073) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:52:39,848] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:52:39,849] {logging_mixin.py:115} INFO - [2024-03-11 23:52:39,848] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:52:39,868] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:52:39,901] {logging_mixin.py:115} INFO - [2024-03-11 23:52:39,901] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:52:39,932] {logging_mixin.py:115} INFO - [2024-03-11 23:52:39,932] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:52:39,955] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2024-03-11 23:53:21,796] {processor.py:153} INFO - Started process (PID=66615) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:53:21,799] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:53:21,801] {logging_mixin.py:115} INFO - [2024-03-11 23:53:21,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:53:21,820] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:53:21,885] {logging_mixin.py:115} INFO - [2024-03-11 23:53:21,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:53:21,927] {logging_mixin.py:115} INFO - [2024-03-11 23:53:21,927] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:53:21,953] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.164 seconds
+[2024-03-11 23:54:02,507] {processor.py:153} INFO - Started process (PID=67051) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:54:02,509] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:54:02,510] {logging_mixin.py:115} INFO - [2024-03-11 23:54:02,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:54:02,537] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:54:02,585] {logging_mixin.py:115} INFO - [2024-03-11 23:54:02,585] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:54:02,651] {logging_mixin.py:115} INFO - [2024-03-11 23:54:02,650] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:54:02,713] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.213 seconds
+[2024-03-11 23:54:45,490] {processor.py:153} INFO - Started process (PID=67427) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:54:45,493] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:54:45,495] {logging_mixin.py:115} INFO - [2024-03-11 23:54:45,494] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:54:45,564] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:54:45,695] {logging_mixin.py:115} INFO - [2024-03-11 23:54:45,695] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:54:45,840] {logging_mixin.py:115} INFO - [2024-03-11 23:54:45,839] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:54:45,948] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.476 seconds
+[2024-03-11 23:55:25,555] {processor.py:153} INFO - Started process (PID=67911) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:55:25,556] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:55:25,557] {logging_mixin.py:115} INFO - [2024-03-11 23:55:25,557] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:55:25,584] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:55:25,621] {logging_mixin.py:115} INFO - [2024-03-11 23:55:25,621] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:55:25,662] {logging_mixin.py:115} INFO - [2024-03-11 23:55:25,661] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:55:25,704] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.157 seconds
+[2024-03-11 23:56:02,815] {processor.py:153} INFO - Started process (PID=68156) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:56:02,817] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:56:02,818] {logging_mixin.py:115} INFO - [2024-03-11 23:56:02,818] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:56:02,848] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:56:02,899] {logging_mixin.py:115} INFO - [2024-03-11 23:56:02,899] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:56:02,946] {logging_mixin.py:115} INFO - [2024-03-11 23:56:02,946] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:56:02,984] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.175 seconds
+[2024-03-11 23:56:46,493] {processor.py:153} INFO - Started process (PID=68467) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:56:46,495] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:56:46,496] {logging_mixin.py:115} INFO - [2024-03-11 23:56:46,496] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:56:46,526] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:56:46,592] {logging_mixin.py:115} INFO - [2024-03-11 23:56:46,591] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:56:46,635] {logging_mixin.py:115} INFO - [2024-03-11 23:56:46,635] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:56:46,660] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.172 seconds
+[2024-03-11 23:57:22,678] {processor.py:153} INFO - Started process (PID=68738) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:57:22,680] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:57:22,682] {logging_mixin.py:115} INFO - [2024-03-11 23:57:22,682] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:57:22,708] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:57:22,738] {logging_mixin.py:115} INFO - [2024-03-11 23:57:22,738] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:57:22,769] {logging_mixin.py:115} INFO - [2024-03-11 23:57:22,768] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:57:22,790] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.121 seconds
+[2024-03-11 23:58:02,408] {processor.py:153} INFO - Started process (PID=69063) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:58:02,411] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:58:02,412] {logging_mixin.py:115} INFO - [2024-03-11 23:58:02,412] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:58:02,443] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:58:02,492] {logging_mixin.py:115} INFO - [2024-03-11 23:58:02,491] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:58:02,532] {logging_mixin.py:115} INFO - [2024-03-11 23:58:02,532] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:58:02,575] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.179 seconds
+[2024-03-11 23:58:44,516] {processor.py:153} INFO - Started process (PID=69448) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:58:44,518] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:58:44,519] {logging_mixin.py:115} INFO - [2024-03-11 23:58:44,519] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:58:44,549] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:58:44,601] {logging_mixin.py:115} INFO - [2024-03-11 23:58:44,601] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:58:44,647] {logging_mixin.py:115} INFO - [2024-03-11 23:58:44,646] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:58:44,687] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.174 seconds
+[2024-03-11 23:59:26,823] {processor.py:153} INFO - Started process (PID=69769) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:59:26,827] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-11 23:59:26,829] {logging_mixin.py:115} INFO - [2024-03-11 23:59:26,829] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:59:26,888] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-11 23:59:26,964] {logging_mixin.py:115} INFO - [2024-03-11 23:59:26,964] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:59:27,019] {logging_mixin.py:115} INFO - [2024-03-11 23:59:27,019] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-11 23:59:27,064] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.247 seconds
+[2024-03-12 00:00:11,037] {processor.py:153} INFO - Started process (PID=70192) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:00:11,038] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:00:11,039] {logging_mixin.py:115} INFO - [2024-03-12 00:00:11,039] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:00:11,067] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:00:11,119] {logging_mixin.py:115} INFO - [2024-03-12 00:00:11,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:00:11,163] {logging_mixin.py:115} INFO - [2024-03-12 00:00:11,162] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:00:11,208] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.179 seconds
+[2024-03-12 00:00:50,296] {processor.py:153} INFO - Started process (PID=70456) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:00:50,298] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:00:50,299] {logging_mixin.py:115} INFO - [2024-03-12 00:00:50,299] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:00:50,321] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:00:50,361] {logging_mixin.py:115} INFO - [2024-03-12 00:00:50,360] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:00:50,398] {logging_mixin.py:115} INFO - [2024-03-12 00:00:50,398] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:00:50,427] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.142 seconds
+[2024-03-12 00:01:27,812] {processor.py:153} INFO - Started process (PID=70687) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:01:27,814] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:01:27,815] {logging_mixin.py:115} INFO - [2024-03-12 00:01:27,815] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:01:27,834] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:01:27,869] {logging_mixin.py:115} INFO - [2024-03-12 00:01:27,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:01:27,900] {logging_mixin.py:115} INFO - [2024-03-12 00:01:27,899] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:01:27,922] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2024-03-12 00:02:07,935] {processor.py:153} INFO - Started process (PID=71050) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:02:07,936] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:02:07,937] {logging_mixin.py:115} INFO - [2024-03-12 00:02:07,937] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:02:07,966] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:02:07,999] {logging_mixin.py:115} INFO - [2024-03-12 00:02:07,998] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:02:08,049] {logging_mixin.py:115} INFO - [2024-03-12 00:02:08,049] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:02:08,077] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.147 seconds
+[2024-03-12 00:02:58,812] {processor.py:153} INFO - Started process (PID=71652) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:02:58,815] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:02:58,817] {logging_mixin.py:115} INFO - [2024-03-12 00:02:58,817] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:02:58,836] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:02:58,874] {logging_mixin.py:115} INFO - [2024-03-12 00:02:58,874] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:02:58,935] {logging_mixin.py:115} INFO - [2024-03-12 00:02:58,935] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:02:58,964] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.159 seconds
+[2024-03-12 00:03:50,713] {processor.py:153} INFO - Started process (PID=72320) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:03:50,720] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:03:50,722] {logging_mixin.py:115} INFO - [2024-03-12 00:03:50,721] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:03:50,798] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:03:51,024] {logging_mixin.py:115} INFO - [2024-03-12 00:03:51,024] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:03:51,256] {logging_mixin.py:115} INFO - [2024-03-12 00:03:51,256] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:03:51,466] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.766 seconds
+[2024-03-12 00:04:40,002] {processor.py:153} INFO - Started process (PID=73028) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:04:40,005] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:04:40,006] {logging_mixin.py:115} INFO - [2024-03-12 00:04:40,006] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:04:40,027] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:04:40,062] {logging_mixin.py:115} INFO - [2024-03-12 00:04:40,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:04:40,092] {logging_mixin.py:115} INFO - [2024-03-12 00:04:40,092] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:04:40,117] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2024-03-12 00:05:17,942] {processor.py:153} INFO - Started process (PID=73359) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:05:17,943] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:05:17,945] {logging_mixin.py:115} INFO - [2024-03-12 00:05:17,945] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:05:17,965] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:05:17,999] {logging_mixin.py:115} INFO - [2024-03-12 00:05:17,999] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:05:18,028] {logging_mixin.py:115} INFO - [2024-03-12 00:05:18,028] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:05:18,052] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2024-03-12 00:05:54,107] {processor.py:153} INFO - Started process (PID=73577) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:05:54,109] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:05:54,110] {logging_mixin.py:115} INFO - [2024-03-12 00:05:54,110] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:05:54,129] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:05:54,170] {logging_mixin.py:115} INFO - [2024-03-12 00:05:54,170] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:05:54,198] {logging_mixin.py:115} INFO - [2024-03-12 00:05:54,198] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:05:54,223] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.121 seconds
+[2024-03-12 00:06:39,388] {processor.py:153} INFO - Started process (PID=73940) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:06:39,390] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:06:39,391] {logging_mixin.py:115} INFO - [2024-03-12 00:06:39,391] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:06:39,413] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:06:39,463] {logging_mixin.py:115} INFO - [2024-03-12 00:06:39,458] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:06:39,515] {logging_mixin.py:115} INFO - [2024-03-12 00:06:39,515] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:06:39,568] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.184 seconds
+[2024-03-12 00:07:21,560] {processor.py:153} INFO - Started process (PID=74559) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:07:21,562] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:07:21,564] {logging_mixin.py:115} INFO - [2024-03-12 00:07:21,564] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:07:21,593] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:07:21,680] {logging_mixin.py:115} INFO - [2024-03-12 00:07:21,680] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:07:21,768] {logging_mixin.py:115} INFO - [2024-03-12 00:07:21,768] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:07:21,818] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.268 seconds
+[2024-03-12 00:08:02,106] {processor.py:153} INFO - Started process (PID=74945) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:08:02,108] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:08:02,109] {logging_mixin.py:115} INFO - [2024-03-12 00:08:02,108] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:08:02,133] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:08:02,172] {logging_mixin.py:115} INFO - [2024-03-12 00:08:02,172] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:08:02,216] {logging_mixin.py:115} INFO - [2024-03-12 00:08:02,216] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:08:02,249] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.149 seconds
+[2024-03-12 00:08:44,299] {processor.py:153} INFO - Started process (PID=75361) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:08:44,301] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:08:44,303] {logging_mixin.py:115} INFO - [2024-03-12 00:08:44,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:08:44,367] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:08:44,451] {logging_mixin.py:115} INFO - [2024-03-12 00:08:44,451] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:08:44,550] {logging_mixin.py:115} INFO - [2024-03-12 00:08:44,550] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:08:44,603] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.323 seconds
+[2024-03-12 00:09:28,567] {processor.py:153} INFO - Started process (PID=75808) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:09:28,569] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:09:28,571] {logging_mixin.py:115} INFO - [2024-03-12 00:09:28,571] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:09:28,593] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:09:28,625] {logging_mixin.py:115} INFO - [2024-03-12 00:09:28,625] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:09:28,653] {logging_mixin.py:115} INFO - [2024-03-12 00:09:28,652] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:09:28,675] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.116 seconds
+[2024-03-12 00:10:05,294] {processor.py:153} INFO - Started process (PID=76144) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:10:05,296] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:10:05,298] {logging_mixin.py:115} INFO - [2024-03-12 00:10:05,298] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:10:05,321] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:10:05,364] {logging_mixin.py:115} INFO - [2024-03-12 00:10:05,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:10:05,418] {logging_mixin.py:115} INFO - [2024-03-12 00:10:05,418] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:10:05,444] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.163 seconds
+[2024-03-12 00:10:46,079] {processor.py:153} INFO - Started process (PID=76415) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:10:46,081] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:10:46,082] {logging_mixin.py:115} INFO - [2024-03-12 00:10:46,082] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:10:46,107] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:10:46,167] {logging_mixin.py:115} INFO - [2024-03-12 00:10:46,166] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:10:46,213] {logging_mixin.py:115} INFO - [2024-03-12 00:10:46,213] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:10:46,261] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.186 seconds
+[2024-03-12 00:11:32,039] {processor.py:153} INFO - Started process (PID=76895) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:11:32,041] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:11:32,043] {logging_mixin.py:115} INFO - [2024-03-12 00:11:32,043] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:11:32,129] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:11:32,217] {logging_mixin.py:115} INFO - [2024-03-12 00:11:32,217] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:11:32,296] {logging_mixin.py:115} INFO - [2024-03-12 00:11:32,296] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:11:32,347] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.319 seconds
+[2024-03-12 00:12:18,350] {processor.py:153} INFO - Started process (PID=77436) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:12:18,354] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:12:18,359] {logging_mixin.py:115} INFO - [2024-03-12 00:12:18,358] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:12:18,379] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:12:18,424] {logging_mixin.py:115} INFO - [2024-03-12 00:12:18,424] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:12:18,462] {logging_mixin.py:115} INFO - [2024-03-12 00:12:18,462] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:12:18,493] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.148 seconds
+[2024-03-12 00:13:07,147] {processor.py:153} INFO - Started process (PID=77932) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:13:07,149] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:13:07,151] {logging_mixin.py:115} INFO - [2024-03-12 00:13:07,150] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:13:07,229] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:13:07,341] {logging_mixin.py:115} INFO - [2024-03-12 00:13:07,341] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:13:07,415] {logging_mixin.py:115} INFO - [2024-03-12 00:13:07,414] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:13:07,467] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.336 seconds
+[2024-03-12 00:13:50,142] {processor.py:153} INFO - Started process (PID=78307) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:13:50,144] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:13:50,145] {logging_mixin.py:115} INFO - [2024-03-12 00:13:50,145] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:13:50,165] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:13:50,213] {logging_mixin.py:115} INFO - [2024-03-12 00:13:50,213] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:13:50,258] {logging_mixin.py:115} INFO - [2024-03-12 00:13:50,258] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:13:50,284] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.151 seconds
+[2024-03-12 00:14:33,087] {processor.py:153} INFO - Started process (PID=78739) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:14:33,090] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:14:33,092] {logging_mixin.py:115} INFO - [2024-03-12 00:14:33,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:14:33,146] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:14:33,247] {logging_mixin.py:115} INFO - [2024-03-12 00:14:33,247] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:14:33,318] {logging_mixin.py:115} INFO - [2024-03-12 00:14:33,318] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:14:33,361] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.282 seconds
+[2024-03-12 00:15:15,931] {processor.py:153} INFO - Started process (PID=79175) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:15:15,934] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:15:15,935] {logging_mixin.py:115} INFO - [2024-03-12 00:15:15,935] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:15:15,969] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:15:16,018] {logging_mixin.py:115} INFO - [2024-03-12 00:15:16,018] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:15:16,067] {logging_mixin.py:115} INFO - [2024-03-12 00:15:16,066] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:15:16,106] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.189 seconds
+[2024-03-12 00:16:03,567] {processor.py:153} INFO - Started process (PID=79476) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:16:03,576] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:16:03,578] {logging_mixin.py:115} INFO - [2024-03-12 00:16:03,577] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:16:03,614] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:16:03,662] {logging_mixin.py:115} INFO - [2024-03-12 00:16:03,661] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:16:03,704] {logging_mixin.py:115} INFO - [2024-03-12 00:16:03,704] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:16:03,728] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.166 seconds
+[2024-03-12 00:16:45,934] {processor.py:153} INFO - Started process (PID=79748) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:16:45,936] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:16:45,939] {logging_mixin.py:115} INFO - [2024-03-12 00:16:45,938] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:16:45,986] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:16:46,078] {logging_mixin.py:115} INFO - [2024-03-12 00:16:46,078] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:16:46,150] {logging_mixin.py:115} INFO - [2024-03-12 00:16:46,150] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:16:46,186] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.282 seconds
+[2024-03-12 00:17:31,210] {processor.py:153} INFO - Started process (PID=80092) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:17:31,215] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:17:31,218] {logging_mixin.py:115} INFO - [2024-03-12 00:17:31,217] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:17:31,253] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:17:31,285] {logging_mixin.py:115} INFO - [2024-03-12 00:17:31,284] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:17:31,319] {logging_mixin.py:115} INFO - [2024-03-12 00:17:31,318] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:17:31,345] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.152 seconds
+[2024-03-12 00:18:14,074] {processor.py:153} INFO - Started process (PID=80347) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:18:14,077] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:18:14,078] {logging_mixin.py:115} INFO - [2024-03-12 00:18:14,078] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:18:14,107] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:18:14,145] {logging_mixin.py:115} INFO - [2024-03-12 00:18:14,145] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:18:14,173] {logging_mixin.py:115} INFO - [2024-03-12 00:18:14,173] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:18:14,200] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.133 seconds
+[2024-03-12 00:18:49,904] {processor.py:153} INFO - Started process (PID=80565) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:18:49,906] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:18:49,906] {logging_mixin.py:115} INFO - [2024-03-12 00:18:49,906] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:18:49,934] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:18:49,974] {logging_mixin.py:115} INFO - [2024-03-12 00:18:49,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:18:50,018] {logging_mixin.py:115} INFO - [2024-03-12 00:18:50,017] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:18:50,040] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.141 seconds
+[2024-03-12 00:19:37,130] {processor.py:153} INFO - Started process (PID=81026) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:19:37,132] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:19:37,133] {logging_mixin.py:115} INFO - [2024-03-12 00:19:37,133] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:19:37,160] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:19:37,225] {logging_mixin.py:115} INFO - [2024-03-12 00:19:37,225] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:19:37,287] {logging_mixin.py:115} INFO - [2024-03-12 00:19:37,287] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:19:37,334] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.230 seconds
+[2024-03-12 00:20:25,949] {processor.py:153} INFO - Started process (PID=81536) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:20:25,951] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:20:25,952] {logging_mixin.py:115} INFO - [2024-03-12 00:20:25,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:20:25,977] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:20:26,047] {logging_mixin.py:115} INFO - [2024-03-12 00:20:26,047] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:20:26,116] {logging_mixin.py:115} INFO - [2024-03-12 00:20:26,116] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:20:26,151] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.207 seconds
+[2024-03-12 00:21:10,099] {processor.py:153} INFO - Started process (PID=81976) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:21:10,103] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:21:10,105] {logging_mixin.py:115} INFO - [2024-03-12 00:21:10,104] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:21:10,166] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:21:10,270] {logging_mixin.py:115} INFO - [2024-03-12 00:21:10,270] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:21:10,374] {logging_mixin.py:115} INFO - [2024-03-12 00:21:10,374] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:21:10,486] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.399 seconds
+[2024-03-12 00:21:52,742] {processor.py:153} INFO - Started process (PID=82416) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:21:52,744] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:21:52,747] {logging_mixin.py:115} INFO - [2024-03-12 00:21:52,747] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:21:52,861] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:21:53,025] {logging_mixin.py:115} INFO - [2024-03-12 00:21:53,025] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:21:53,149] {logging_mixin.py:115} INFO - [2024-03-12 00:21:53,149] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:21:53,269] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.560 seconds
+[2024-03-12 00:22:34,834] {processor.py:153} INFO - Started process (PID=82823) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:22:34,836] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:22:34,837] {logging_mixin.py:115} INFO - [2024-03-12 00:22:34,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:22:34,876] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:22:34,918] {logging_mixin.py:115} INFO - [2024-03-12 00:22:34,915] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:22:34,964] {logging_mixin.py:115} INFO - [2024-03-12 00:22:34,964] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:22:35,005] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.177 seconds
+[2024-03-12 00:23:21,606] {processor.py:153} INFO - Started process (PID=83268) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:23:21,608] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:23:21,610] {logging_mixin.py:115} INFO - [2024-03-12 00:23:21,610] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:23:21,657] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:23:21,728] {logging_mixin.py:115} INFO - [2024-03-12 00:23:21,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:23:21,766] {logging_mixin.py:115} INFO - [2024-03-12 00:23:21,765] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:23:21,793] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.193 seconds
+[2024-03-12 00:24:03,562] {processor.py:153} INFO - Started process (PID=83702) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:24:03,564] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:24:03,566] {logging_mixin.py:115} INFO - [2024-03-12 00:24:03,566] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:24:03,619] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:24:03,725] {logging_mixin.py:115} INFO - [2024-03-12 00:24:03,722] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:24:03,810] {logging_mixin.py:115} INFO - [2024-03-12 00:24:03,810] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:24:03,872] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.325 seconds
+[2024-03-12 00:24:49,466] {processor.py:153} INFO - Started process (PID=84161) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:24:49,468] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:24:49,469] {logging_mixin.py:115} INFO - [2024-03-12 00:24:49,469] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:24:49,489] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:24:49,657] {logging_mixin.py:115} INFO - [2024-03-12 00:24:49,657] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:24:49,831] {logging_mixin.py:115} INFO - [2024-03-12 00:24:49,831] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:24:49,937] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.478 seconds
+[2024-03-12 00:25:27,965] {processor.py:153} INFO - Started process (PID=84624) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:25:27,967] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:25:27,968] {logging_mixin.py:115} INFO - [2024-03-12 00:25:27,968] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:25:27,989] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:25:28,030] {logging_mixin.py:115} INFO - [2024-03-12 00:25:28,030] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:25:28,077] {logging_mixin.py:115} INFO - [2024-03-12 00:25:28,076] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:25:28,103] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.146 seconds
+[2024-03-12 00:26:15,631] {processor.py:153} INFO - Started process (PID=85058) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:26:15,634] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:26:15,635] {logging_mixin.py:115} INFO - [2024-03-12 00:26:15,635] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:26:15,659] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:26:15,697] {logging_mixin.py:115} INFO - [2024-03-12 00:26:15,697] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:26:15,760] {logging_mixin.py:115} INFO - [2024-03-12 00:26:15,760] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:26:15,789] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.169 seconds
+[2024-03-12 00:27:02,485] {processor.py:153} INFO - Started process (PID=85540) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:27:02,545] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:27:02,547] {logging_mixin.py:115} INFO - [2024-03-12 00:27:02,547] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:27:02,626] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:27:02,713] {logging_mixin.py:115} INFO - [2024-03-12 00:27:02,713] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:27:02,795] {logging_mixin.py:115} INFO - [2024-03-12 00:27:02,795] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:27:02,844] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.388 seconds
+[2024-03-12 00:27:57,202] {processor.py:153} INFO - Started process (PID=86046) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:27:57,204] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:27:57,207] {logging_mixin.py:115} INFO - [2024-03-12 00:27:57,206] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:27:57,259] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:27:57,464] {logging_mixin.py:115} INFO - [2024-03-12 00:27:57,464] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:27:57,574] {logging_mixin.py:115} INFO - [2024-03-12 00:27:57,573] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:27:57,687] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.502 seconds
+[2024-03-12 00:28:45,349] {processor.py:153} INFO - Started process (PID=86533) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:28:45,351] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:28:45,352] {logging_mixin.py:115} INFO - [2024-03-12 00:28:45,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:28:45,376] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:28:45,423] {logging_mixin.py:115} INFO - [2024-03-12 00:28:45,423] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:28:45,456] {logging_mixin.py:115} INFO - [2024-03-12 00:28:45,456] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:28:45,483] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.143 seconds
+[2024-03-12 00:29:36,157] {processor.py:153} INFO - Started process (PID=87039) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:29:36,159] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:29:36,160] {logging_mixin.py:115} INFO - [2024-03-12 00:29:36,160] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:29:36,193] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:29:36,266] {logging_mixin.py:115} INFO - [2024-03-12 00:29:36,266] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:29:36,313] {logging_mixin.py:115} INFO - [2024-03-12 00:29:36,313] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:29:36,346] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.197 seconds
+[2024-03-12 00:30:18,304] {processor.py:153} INFO - Started process (PID=87430) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:30:18,327] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:30:18,329] {logging_mixin.py:115} INFO - [2024-03-12 00:30:18,328] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:30:18,443] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:30:18,544] {logging_mixin.py:115} INFO - [2024-03-12 00:30:18,543] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:30:18,621] {logging_mixin.py:115} INFO - [2024-03-12 00:30:18,620] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:30:18,682] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.410 seconds
+[2024-03-12 00:30:59,004] {processor.py:153} INFO - Started process (PID=87995) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:30:59,005] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:30:59,007] {logging_mixin.py:115} INFO - [2024-03-12 00:30:59,006] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:30:59,050] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:30:59,110] {logging_mixin.py:115} INFO - [2024-03-12 00:30:59,110] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:30:59,147] {logging_mixin.py:115} INFO - [2024-03-12 00:30:59,147] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:30:59,186] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.193 seconds
+[2024-03-12 00:31:39,105] {processor.py:153} INFO - Started process (PID=88545) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:31:39,107] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:31:39,108] {logging_mixin.py:115} INFO - [2024-03-12 00:31:39,108] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:31:39,158] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:31:39,230] {logging_mixin.py:115} INFO - [2024-03-12 00:31:39,229] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:31:39,366] {logging_mixin.py:115} INFO - [2024-03-12 00:31:39,366] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:31:39,516] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.418 seconds
+[2024-03-12 00:32:33,106] {processor.py:153} INFO - Started process (PID=89155) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:32:33,110] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:32:33,114] {logging_mixin.py:115} INFO - [2024-03-12 00:32:33,113] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:32:33,161] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:32:33,285] {logging_mixin.py:115} INFO - [2024-03-12 00:32:33,284] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:32:33,354] {logging_mixin.py:115} INFO - [2024-03-12 00:32:33,353] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:32:33,383] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.288 seconds
+[2024-03-12 00:33:17,341] {processor.py:153} INFO - Started process (PID=89432) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:33:17,343] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:33:17,344] {logging_mixin.py:115} INFO - [2024-03-12 00:33:17,344] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:33:17,365] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:33:17,406] {logging_mixin.py:115} INFO - [2024-03-12 00:33:17,406] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:33:17,446] {logging_mixin.py:115} INFO - [2024-03-12 00:33:17,446] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:33:17,474] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.139 seconds
+[2024-03-12 00:33:59,950] {processor.py:153} INFO - Started process (PID=89752) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:33:59,952] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:33:59,953] {logging_mixin.py:115} INFO - [2024-03-12 00:33:59,953] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:33:59,980] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:34:00,044] {logging_mixin.py:115} INFO - [2024-03-12 00:34:00,044] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:34:00,089] {logging_mixin.py:115} INFO - [2024-03-12 00:34:00,089] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:34:00,126] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.180 seconds
+[2024-03-12 00:34:37,159] {processor.py:153} INFO - Started process (PID=90164) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:34:37,168] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:34:37,169] {logging_mixin.py:115} INFO - [2024-03-12 00:34:37,169] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:34:37,204] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:34:37,259] {logging_mixin.py:115} INFO - [2024-03-12 00:34:37,259] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:34:37,297] {logging_mixin.py:115} INFO - [2024-03-12 00:34:37,297] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:34:37,323] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.172 seconds
+[2024-03-12 00:35:17,978] {processor.py:153} INFO - Started process (PID=90674) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:35:17,981] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:35:17,990] {logging_mixin.py:115} INFO - [2024-03-12 00:35:17,990] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:35:18,018] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:35:18,080] {logging_mixin.py:115} INFO - [2024-03-12 00:35:18,080] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:35:18,131] {logging_mixin.py:115} INFO - [2024-03-12 00:35:18,131] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:35:18,166] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.194 seconds
+[2024-03-12 00:35:56,259] {processor.py:153} INFO - Started process (PID=91044) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:35:56,263] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:35:56,265] {logging_mixin.py:115} INFO - [2024-03-12 00:35:56,264] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:35:56,343] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:35:56,403] {logging_mixin.py:115} INFO - [2024-03-12 00:35:56,402] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:35:56,443] {logging_mixin.py:115} INFO - [2024-03-12 00:35:56,443] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:35:56,479] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.227 seconds
+[2024-03-12 00:36:35,519] {processor.py:153} INFO - Started process (PID=91443) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:36:35,523] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:36:35,524] {logging_mixin.py:115} INFO - [2024-03-12 00:36:35,524] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:36:35,555] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:36:35,625] {logging_mixin.py:115} INFO - [2024-03-12 00:36:35,625] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:36:35,681] {logging_mixin.py:115} INFO - [2024-03-12 00:36:35,680] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:36:35,730] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.223 seconds
+[2024-03-12 00:37:19,348] {processor.py:153} INFO - Started process (PID=91904) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:37:19,350] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:37:19,352] {logging_mixin.py:115} INFO - [2024-03-12 00:37:19,351] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:37:19,389] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:37:19,470] {logging_mixin.py:115} INFO - [2024-03-12 00:37:19,469] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:37:19,532] {logging_mixin.py:115} INFO - [2024-03-12 00:37:19,532] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:37:19,570] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.232 seconds
+[2024-03-12 00:38:00,367] {processor.py:153} INFO - Started process (PID=92373) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:38:00,369] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:38:00,370] {logging_mixin.py:115} INFO - [2024-03-12 00:38:00,370] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:38:00,399] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:38:00,439] {logging_mixin.py:115} INFO - [2024-03-12 00:38:00,439] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:38:00,485] {logging_mixin.py:115} INFO - [2024-03-12 00:38:00,485] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:38:00,512] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.152 seconds
+[2024-03-12 00:38:46,267] {processor.py:153} INFO - Started process (PID=92803) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:38:46,281] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:38:46,283] {logging_mixin.py:115} INFO - [2024-03-12 00:38:46,282] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:38:46,504] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:38:46,764] {logging_mixin.py:115} INFO - [2024-03-12 00:38:46,764] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:38:46,836] {logging_mixin.py:115} INFO - [2024-03-12 00:38:46,836] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:38:46,882] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.652 seconds
+[2024-03-12 00:39:31,766] {processor.py:153} INFO - Started process (PID=93257) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:39:31,768] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:39:31,769] {logging_mixin.py:115} INFO - [2024-03-12 00:39:31,769] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:39:31,790] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:39:31,832] {logging_mixin.py:115} INFO - [2024-03-12 00:39:31,832] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:39:31,881] {logging_mixin.py:115} INFO - [2024-03-12 00:39:31,881] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:39:31,904] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.147 seconds
+[2024-03-12 00:40:12,496] {processor.py:153} INFO - Started process (PID=93663) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:40:12,497] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:40:12,499] {logging_mixin.py:115} INFO - [2024-03-12 00:40:12,498] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:40:12,519] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:40:12,555] {logging_mixin.py:115} INFO - [2024-03-12 00:40:12,554] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:40:12,586] {logging_mixin.py:115} INFO - [2024-03-12 00:40:12,586] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:40:12,610] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.122 seconds
+[2024-03-12 00:40:52,289] {processor.py:153} INFO - Started process (PID=93947) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:40:52,292] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:40:52,293] {logging_mixin.py:115} INFO - [2024-03-12 00:40:52,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:40:52,335] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:40:52,401] {logging_mixin.py:115} INFO - [2024-03-12 00:40:52,400] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:40:52,442] {logging_mixin.py:115} INFO - [2024-03-12 00:40:52,442] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:40:52,483] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.211 seconds
+[2024-03-12 00:41:28,902] {processor.py:153} INFO - Started process (PID=94168) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:41:28,904] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:41:28,906] {logging_mixin.py:115} INFO - [2024-03-12 00:41:28,906] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:41:28,935] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:41:28,969] {logging_mixin.py:115} INFO - [2024-03-12 00:41:28,969] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:41:29,002] {logging_mixin.py:115} INFO - [2024-03-12 00:41:29,002] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:41:29,025] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.135 seconds
+[2024-03-12 00:42:03,527] {processor.py:153} INFO - Started process (PID=94425) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:42:03,529] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:42:03,530] {logging_mixin.py:115} INFO - [2024-03-12 00:42:03,530] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:42:03,547] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:42:03,577] {logging_mixin.py:115} INFO - [2024-03-12 00:42:03,577] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:42:03,604] {logging_mixin.py:115} INFO - [2024-03-12 00:42:03,604] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:42:03,630] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.108 seconds
+[2024-03-12 00:42:39,163] {processor.py:153} INFO - Started process (PID=94635) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:42:39,166] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:42:39,167] {logging_mixin.py:115} INFO - [2024-03-12 00:42:39,167] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:42:39,199] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:42:39,243] {logging_mixin.py:115} INFO - [2024-03-12 00:42:39,243] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:42:39,273] {logging_mixin.py:115} INFO - [2024-03-12 00:42:39,273] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:42:39,297] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.143 seconds
+[2024-03-12 00:43:21,117] {processor.py:153} INFO - Started process (PID=94886) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:43:21,119] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:43:21,120] {logging_mixin.py:115} INFO - [2024-03-12 00:43:21,120] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:43:21,145] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:43:21,187] {logging_mixin.py:115} INFO - [2024-03-12 00:43:21,187] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:43:21,233] {logging_mixin.py:115} INFO - [2024-03-12 00:43:21,233] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:43:21,263] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.151 seconds
+[2024-03-12 00:43:59,133] {processor.py:153} INFO - Started process (PID=95112) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:43:59,136] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:43:59,137] {logging_mixin.py:115} INFO - [2024-03-12 00:43:59,137] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:43:59,167] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:43:59,229] {logging_mixin.py:115} INFO - [2024-03-12 00:43:59,229] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:43:59,269] {logging_mixin.py:115} INFO - [2024-03-12 00:43:59,269] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:43:59,314] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.187 seconds
+[2024-03-12 00:44:39,485] {processor.py:153} INFO - Started process (PID=95464) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:44:39,490] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:44:39,495] {logging_mixin.py:115} INFO - [2024-03-12 00:44:39,494] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:44:39,610] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:44:39,767] {logging_mixin.py:115} INFO - [2024-03-12 00:44:39,767] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:44:39,895] {logging_mixin.py:115} INFO - [2024-03-12 00:44:39,895] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:44:39,972] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.513 seconds
+[2024-03-12 00:45:20,694] {processor.py:153} INFO - Started process (PID=95892) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:45:20,697] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:45:20,699] {logging_mixin.py:115} INFO - [2024-03-12 00:45:20,698] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:45:20,732] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:45:20,764] {logging_mixin.py:115} INFO - [2024-03-12 00:45:20,764] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:45:20,795] {logging_mixin.py:115} INFO - [2024-03-12 00:45:20,795] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:45:20,817] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.136 seconds
+[2024-03-12 00:45:59,170] {processor.py:153} INFO - Started process (PID=96304) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:45:59,173] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:45:59,176] {logging_mixin.py:115} INFO - [2024-03-12 00:45:59,176] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:45:59,207] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:45:59,239] {logging_mixin.py:115} INFO - [2024-03-12 00:45:59,239] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:45:59,269] {logging_mixin.py:115} INFO - [2024-03-12 00:45:59,269] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:45:59,290] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.134 seconds
+[2024-03-12 00:46:41,523] {processor.py:153} INFO - Started process (PID=96730) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:46:41,526] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:46:41,528] {logging_mixin.py:115} INFO - [2024-03-12 00:46:41,528] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:46:41,562] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:46:41,617] {logging_mixin.py:115} INFO - [2024-03-12 00:46:41,616] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:46:41,642] {logging_mixin.py:115} INFO - [2024-03-12 00:46:41,642] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:46:41,664] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.156 seconds
+[2024-03-12 00:47:19,791] {processor.py:153} INFO - Started process (PID=97169) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:47:19,795] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:47:19,797] {logging_mixin.py:115} INFO - [2024-03-12 00:47:19,797] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:47:19,831] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:47:19,862] {logging_mixin.py:115} INFO - [2024-03-12 00:47:19,862] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:47:19,890] {logging_mixin.py:115} INFO - [2024-03-12 00:47:19,890] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:47:19,911] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.133 seconds
+[2024-03-12 00:47:58,194] {processor.py:153} INFO - Started process (PID=97583) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:47:58,197] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:47:58,205] {logging_mixin.py:115} INFO - [2024-03-12 00:47:58,204] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:47:58,247] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:47:58,282] {logging_mixin.py:115} INFO - [2024-03-12 00:47:58,282] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:47:58,309] {logging_mixin.py:115} INFO - [2024-03-12 00:47:58,309] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:47:58,346] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.165 seconds
+[2024-03-12 00:48:34,311] {processor.py:153} INFO - Started process (PID=97931) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:48:34,321] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:48:34,323] {logging_mixin.py:115} INFO - [2024-03-12 00:48:34,323] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:48:34,374] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:48:34,418] {logging_mixin.py:115} INFO - [2024-03-12 00:48:34,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:48:34,447] {logging_mixin.py:115} INFO - [2024-03-12 00:48:34,446] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:48:34,482] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.185 seconds
+[2024-03-12 00:49:18,729] {processor.py:153} INFO - Started process (PID=98400) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:49:18,732] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:49:18,733] {logging_mixin.py:115} INFO - [2024-03-12 00:49:18,733] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:49:18,757] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:49:18,788] {logging_mixin.py:115} INFO - [2024-03-12 00:49:18,787] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:49:18,818] {logging_mixin.py:115} INFO - [2024-03-12 00:49:18,818] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:49:18,840] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2024-03-12 00:49:56,233] {processor.py:153} INFO - Started process (PID=98784) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:49:56,285] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:49:56,288] {logging_mixin.py:115} INFO - [2024-03-12 00:49:56,288] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:49:56,345] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:49:56,398] {logging_mixin.py:115} INFO - [2024-03-12 00:49:56,398] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:49:56,428] {logging_mixin.py:115} INFO - [2024-03-12 00:49:56,428] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:49:56,449] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.231 seconds
+[2024-03-12 00:50:41,713] {processor.py:153} INFO - Started process (PID=99256) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:50:41,716] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:50:41,717] {logging_mixin.py:115} INFO - [2024-03-12 00:50:41,717] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:50:41,751] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:50:41,792] {logging_mixin.py:115} INFO - [2024-03-12 00:50:41,791] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:50:41,822] {logging_mixin.py:115} INFO - [2024-03-12 00:50:41,822] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:50:41,847] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.146 seconds
+[2024-03-12 00:51:23,836] {processor.py:153} INFO - Started process (PID=99689) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:51:23,840] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:51:23,842] {logging_mixin.py:115} INFO - [2024-03-12 00:51:23,842] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:51:23,879] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:51:23,912] {logging_mixin.py:115} INFO - [2024-03-12 00:51:23,912] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:51:23,940] {logging_mixin.py:115} INFO - [2024-03-12 00:51:23,940] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:51:23,960] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.138 seconds
+[2024-03-12 00:52:02,830] {processor.py:153} INFO - Started process (PID=100154) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:52:02,834] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:52:02,837] {logging_mixin.py:115} INFO - [2024-03-12 00:52:02,836] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:52:02,895] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:52:02,963] {logging_mixin.py:115} INFO - [2024-03-12 00:52:02,963] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:52:02,991] {logging_mixin.py:115} INFO - [2024-03-12 00:52:02,991] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:52:03,016] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.200 seconds
+[2024-03-12 00:52:44,556] {processor.py:153} INFO - Started process (PID=100579) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:52:44,560] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:52:44,562] {logging_mixin.py:115} INFO - [2024-03-12 00:52:44,562] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:52:44,593] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:52:44,625] {logging_mixin.py:115} INFO - [2024-03-12 00:52:44,624] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:52:44,656] {logging_mixin.py:115} INFO - [2024-03-12 00:52:44,656] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:52:44,682] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.139 seconds
+[2024-03-12 00:53:23,122] {processor.py:153} INFO - Started process (PID=100967) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:53:23,126] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:53:23,129] {logging_mixin.py:115} INFO - [2024-03-12 00:53:23,128] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:53:23,176] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:53:23,214] {logging_mixin.py:115} INFO - [2024-03-12 00:53:23,214] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:53:23,240] {logging_mixin.py:115} INFO - [2024-03-12 00:53:23,240] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:53:23,263] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.155 seconds
+[2024-03-12 00:54:01,449] {processor.py:153} INFO - Started process (PID=101353) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:54:02,808] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:54:02,814] {logging_mixin.py:115} INFO - [2024-03-12 00:54:02,813] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:54:02,877] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:54:02,935] {logging_mixin.py:115} INFO - [2024-03-12 00:54:02,935] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:54:02,963] {logging_mixin.py:115} INFO - [2024-03-12 00:54:02,963] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:54:03,056] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 1.621 seconds
+[2024-03-12 00:54:40,859] {processor.py:153} INFO - Started process (PID=101768) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:54:40,863] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-12 00:54:40,866] {logging_mixin.py:115} INFO - [2024-03-12 00:54:40,865] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:54:40,909] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-12 00:54:40,962] {logging_mixin.py:115} INFO - [2024-03-12 00:54:40,962] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:54:40,988] {logging_mixin.py:115} INFO - [2024-03-12 00:54:40,988] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-12 00:54:41,010] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.164 seconds

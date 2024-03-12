@@ -1,6 +1,9 @@
 from airflow.providers.http.hooks.http import HttpHook
+from datetime import datetime, timedelta
 import requests
 import json
+import os
+
 
 
 class labdados_hook(HttpHook):
@@ -38,18 +41,20 @@ class labdados_hook(HttpHook):
 
 
     def paginate(self, url_raw, session):
-
+        
         list_json_response = []
         response = self.connect_to_endpoint(url_raw,session)
         json_response = response.json()
         list_json_response.append(json_response)
+        contador = 1
 
-        while "next_token" in json_response.get("meta",{}):
+        while "next_token" in json_response.get("meta",{}) and contador < 100:
             next_token = json_response['meta']['next_token']
             url = f"{url_raw}&next_token={next_token}"
             response = requests.request("GET", url)
             json_response = response.json()
             print(json.dumps(json_response, indent=4, sort_keys=True))
+            contador += 1
 
 
         return list_json_response
@@ -60,3 +65,19 @@ class labdados_hook(HttpHook):
         url_raw = self.create_url()
         
         return self.paginate(url_raw, session)
+
+
+
+if __name__ == "__main__":
+
+   #montando url
+   TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.00Z"
+
+   end_time = datetime.now().strftime(TIMESTAMP_FORMAT)
+   start_time = (datetime.now() +      timedelta(-1)).date().strftime(TIMESTAMP_FORMAT)   
+   query = "datascience"
+
+   for pg in labdados_hook(end_time, start_time, query).run():
+       print(json.dumps(pg, indent=4, sort_keys=True))
+
+

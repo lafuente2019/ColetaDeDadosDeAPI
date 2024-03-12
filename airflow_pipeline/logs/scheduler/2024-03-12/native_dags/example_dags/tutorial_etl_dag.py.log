@@ -807,3 +807,948 @@
 [2024-03-11 23:34:50,333] {logging_mixin.py:115} INFO - [2024-03-11 23:34:50,332] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-03-11 23:34:50,360] {logging_mixin.py:115} INFO - [2024-03-11 23:34:50,360] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
 [2024-03-11 23:34:50,382] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.109 seconds
+[2024-03-11 23:35:26,834] {processor.py:153} INFO - Started process (PID=55899) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:35:26,836] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:35:26,837] {logging_mixin.py:115} INFO - [2024-03-11 23:35:26,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:35:26,849] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:35:26,884] {logging_mixin.py:115} INFO - [2024-03-11 23:35:26,883] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:35:26,932] {logging_mixin.py:115} INFO - [2024-03-11 23:35:26,931] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:35:26,954] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.126 seconds
+[2024-03-11 23:36:03,156] {processor.py:153} INFO - Started process (PID=56391) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:36:03,164] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:36:03,166] {logging_mixin.py:115} INFO - [2024-03-11 23:36:03,166] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:36:03,198] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:36:03,290] {logging_mixin.py:115} INFO - [2024-03-11 23:36:03,289] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:36:03,381] {logging_mixin.py:115} INFO - [2024-03-11 23:36:03,381] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:36:03,450] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.309 seconds
+[2024-03-11 23:36:39,829] {processor.py:153} INFO - Started process (PID=56617) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:36:39,831] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:36:39,832] {logging_mixin.py:115} INFO - [2024-03-11 23:36:39,832] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:36:39,843] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:36:39,875] {logging_mixin.py:115} INFO - [2024-03-11 23:36:39,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:36:39,905] {logging_mixin.py:115} INFO - [2024-03-11 23:36:39,905] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:36:39,929] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.109 seconds
+[2024-03-11 23:37:16,287] {processor.py:153} INFO - Started process (PID=56888) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:37:16,290] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:37:16,291] {logging_mixin.py:115} INFO - [2024-03-11 23:37:16,291] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:37:16,310] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:37:16,341] {logging_mixin.py:115} INFO - [2024-03-11 23:37:16,341] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:37:16,374] {logging_mixin.py:115} INFO - [2024-03-11 23:37:16,374] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:37:16,397] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.117 seconds
+[2024-03-11 23:37:49,841] {processor.py:153} INFO - Started process (PID=57201) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:37:49,844] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:37:49,847] {logging_mixin.py:115} INFO - [2024-03-11 23:37:49,846] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:37:49,862] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:37:49,890] {logging_mixin.py:115} INFO - [2024-03-11 23:37:49,890] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:37:49,922] {logging_mixin.py:115} INFO - [2024-03-11 23:37:49,922] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:37:49,944] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.115 seconds
+[2024-03-11 23:38:22,430] {processor.py:153} INFO - Started process (PID=57425) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:38:22,432] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:38:22,433] {logging_mixin.py:115} INFO - [2024-03-11 23:38:22,433] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:38:22,447] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:38:22,475] {logging_mixin.py:115} INFO - [2024-03-11 23:38:22,475] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:38:22,503] {logging_mixin.py:115} INFO - [2024-03-11 23:38:22,503] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:38:22,529] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.115 seconds
+[2024-03-11 23:38:58,430] {processor.py:153} INFO - Started process (PID=57643) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:38:58,431] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:38:58,433] {logging_mixin.py:115} INFO - [2024-03-11 23:38:58,433] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:38:58,449] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:38:58,495] {logging_mixin.py:115} INFO - [2024-03-11 23:38:58,495] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:38:58,547] {logging_mixin.py:115} INFO - [2024-03-11 23:38:58,546] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:38:58,585] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.163 seconds
+[2024-03-11 23:39:34,221] {processor.py:153} INFO - Started process (PID=57859) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:39:34,223] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:39:34,224] {logging_mixin.py:115} INFO - [2024-03-11 23:39:34,224] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:39:34,236] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:39:34,263] {logging_mixin.py:115} INFO - [2024-03-11 23:39:34,263] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:39:34,289] {logging_mixin.py:115} INFO - [2024-03-11 23:39:34,289] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:39:34,313] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.100 seconds
+[2024-03-11 23:40:10,081] {processor.py:153} INFO - Started process (PID=58082) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:40:10,084] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:40:10,086] {logging_mixin.py:115} INFO - [2024-03-11 23:40:10,085] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:40:10,107] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:40:10,145] {logging_mixin.py:115} INFO - [2024-03-11 23:40:10,145] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:40:10,185] {logging_mixin.py:115} INFO - [2024-03-11 23:40:10,184] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:40:10,215] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.141 seconds
+[2024-03-11 23:40:45,090] {processor.py:153} INFO - Started process (PID=58337) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:40:45,092] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:40:45,093] {logging_mixin.py:115} INFO - [2024-03-11 23:40:45,092] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:40:45,112] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:40:45,157] {logging_mixin.py:115} INFO - [2024-03-11 23:40:45,157] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:40:45,206] {logging_mixin.py:115} INFO - [2024-03-11 23:40:45,206] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:40:45,240] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.155 seconds
+[2024-03-11 23:41:24,408] {processor.py:153} INFO - Started process (PID=58748) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:41:24,410] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:41:24,411] {logging_mixin.py:115} INFO - [2024-03-11 23:41:24,411] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:41:24,431] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:41:24,463] {logging_mixin.py:115} INFO - [2024-03-11 23:41:24,463] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:41:24,512] {logging_mixin.py:115} INFO - [2024-03-11 23:41:24,512] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:41:24,541] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.138 seconds
+[2024-03-11 23:41:57,989] {processor.py:153} INFO - Started process (PID=59141) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:41:57,992] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:41:57,995] {logging_mixin.py:115} INFO - [2024-03-11 23:41:57,994] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:41:58,012] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:41:58,057] {logging_mixin.py:115} INFO - [2024-03-11 23:41:58,056] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:41:58,102] {logging_mixin.py:115} INFO - [2024-03-11 23:41:58,102] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:41:58,125] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.141 seconds
+[2024-03-11 23:42:31,395] {processor.py:153} INFO - Started process (PID=59477) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:42:31,398] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:42:31,400] {logging_mixin.py:115} INFO - [2024-03-11 23:42:31,399] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:42:31,422] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:42:31,450] {logging_mixin.py:115} INFO - [2024-03-11 23:42:31,450] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:42:31,480] {logging_mixin.py:115} INFO - [2024-03-11 23:42:31,480] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:42:31,505] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.128 seconds
+[2024-03-11 23:43:07,289] {processor.py:153} INFO - Started process (PID=59838) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:43:07,291] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:43:07,293] {logging_mixin.py:115} INFO - [2024-03-11 23:43:07,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:43:07,309] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:43:07,348] {logging_mixin.py:115} INFO - [2024-03-11 23:43:07,347] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:43:07,391] {logging_mixin.py:115} INFO - [2024-03-11 23:43:07,391] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:43:07,420] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.136 seconds
+[2024-03-11 23:43:44,650] {processor.py:153} INFO - Started process (PID=60177) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:43:44,653] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:43:44,654] {logging_mixin.py:115} INFO - [2024-03-11 23:43:44,654] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:43:44,674] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:43:44,726] {logging_mixin.py:115} INFO - [2024-03-11 23:43:44,726] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:43:44,805] {logging_mixin.py:115} INFO - [2024-03-11 23:43:44,805] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:43:44,833] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.195 seconds
+[2024-03-11 23:44:20,406] {processor.py:153} INFO - Started process (PID=60444) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:44:20,408] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:44:20,409] {logging_mixin.py:115} INFO - [2024-03-11 23:44:20,409] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:44:20,428] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:44:20,473] {logging_mixin.py:115} INFO - [2024-03-11 23:44:20,473] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:44:20,515] {logging_mixin.py:115} INFO - [2024-03-11 23:44:20,515] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:44:20,542] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.145 seconds
+[2024-03-11 23:44:53,806] {processor.py:153} INFO - Started process (PID=60780) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:44:53,808] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:44:53,810] {logging_mixin.py:115} INFO - [2024-03-11 23:44:53,810] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:44:53,828] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:44:53,876] {logging_mixin.py:115} INFO - [2024-03-11 23:44:53,876] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:44:53,913] {logging_mixin.py:115} INFO - [2024-03-11 23:44:53,912] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:44:53,938] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.142 seconds
+[2024-03-11 23:45:32,929] {processor.py:153} INFO - Started process (PID=61178) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:45:32,932] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:45:32,934] {logging_mixin.py:115} INFO - [2024-03-11 23:45:32,934] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:45:32,951] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:45:32,984] {logging_mixin.py:115} INFO - [2024-03-11 23:45:32,984] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:45:33,015] {logging_mixin.py:115} INFO - [2024-03-11 23:45:33,015] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:45:33,054] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.134 seconds
+[2024-03-11 23:46:04,895] {processor.py:153} INFO - Started process (PID=61508) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:46:04,898] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:46:04,900] {logging_mixin.py:115} INFO - [2024-03-11 23:46:04,900] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:46:04,929] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:46:05,014] {logging_mixin.py:115} INFO - [2024-03-11 23:46:05,014] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:46:05,085] {logging_mixin.py:115} INFO - [2024-03-11 23:46:05,084] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:46:05,164] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.274 seconds
+[2024-03-11 23:46:39,140] {processor.py:153} INFO - Started process (PID=61873) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:46:39,141] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:46:39,142] {logging_mixin.py:115} INFO - [2024-03-11 23:46:39,142] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:46:39,157] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:46:39,191] {logging_mixin.py:115} INFO - [2024-03-11 23:46:39,191] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:46:39,231] {logging_mixin.py:115} INFO - [2024-03-11 23:46:39,231] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:46:39,256] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.122 seconds
+[2024-03-11 23:47:12,704] {processor.py:153} INFO - Started process (PID=62261) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:47:12,706] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:47:12,707] {logging_mixin.py:115} INFO - [2024-03-11 23:47:12,707] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:47:12,731] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:47:12,767] {logging_mixin.py:115} INFO - [2024-03-11 23:47:12,766] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:47:12,813] {logging_mixin.py:115} INFO - [2024-03-11 23:47:12,812] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:47:12,848] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.155 seconds
+[2024-03-11 23:47:52,905] {processor.py:153} INFO - Started process (PID=62594) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:47:52,907] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:47:52,909] {logging_mixin.py:115} INFO - [2024-03-11 23:47:52,908] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:47:52,939] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:47:53,009] {logging_mixin.py:115} INFO - [2024-03-11 23:47:53,009] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:47:53,065] {logging_mixin.py:115} INFO - [2024-03-11 23:47:53,065] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:47:53,179] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.289 seconds
+[2024-03-11 23:48:27,615] {processor.py:153} INFO - Started process (PID=62963) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:48:27,619] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:48:27,622] {logging_mixin.py:115} INFO - [2024-03-11 23:48:27,622] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:48:27,644] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:48:27,672] {logging_mixin.py:115} INFO - [2024-03-11 23:48:27,672] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:48:27,714] {logging_mixin.py:115} INFO - [2024-03-11 23:48:27,714] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:48:27,742] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.134 seconds
+[2024-03-11 23:49:06,306] {processor.py:153} INFO - Started process (PID=63358) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:49:06,321] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:49:06,322] {logging_mixin.py:115} INFO - [2024-03-11 23:49:06,322] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:49:06,387] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:49:06,467] {logging_mixin.py:115} INFO - [2024-03-11 23:49:06,467] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:49:06,672] {logging_mixin.py:115} INFO - [2024-03-11 23:49:06,672] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:49:06,749] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.467 seconds
+[2024-03-11 23:49:36,816] {processor.py:153} INFO - Started process (PID=63629) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:49:36,819] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:49:36,821] {logging_mixin.py:115} INFO - [2024-03-11 23:49:36,821] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:49:36,841] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:49:36,871] {logging_mixin.py:115} INFO - [2024-03-11 23:49:36,871] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:49:36,912] {logging_mixin.py:115} INFO - [2024-03-11 23:49:36,912] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:49:36,942] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.131 seconds
+[2024-03-11 23:50:08,571] {processor.py:153} INFO - Started process (PID=64003) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:50:08,574] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:50:08,575] {logging_mixin.py:115} INFO - [2024-03-11 23:50:08,575] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:50:08,600] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:50:08,630] {logging_mixin.py:115} INFO - [2024-03-11 23:50:08,630] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:50:08,663] {logging_mixin.py:115} INFO - [2024-03-11 23:50:08,663] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:50:08,689] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.130 seconds
+[2024-03-11 23:50:38,839] {processor.py:153} INFO - Started process (PID=64399) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:50:38,840] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:50:38,841] {logging_mixin.py:115} INFO - [2024-03-11 23:50:38,841] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:50:38,856] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:50:38,880] {logging_mixin.py:115} INFO - [2024-03-11 23:50:38,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:50:38,907] {logging_mixin.py:115} INFO - [2024-03-11 23:50:38,907] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:50:38,928] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.098 seconds
+[2024-03-11 23:51:14,834] {processor.py:153} INFO - Started process (PID=64898) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:51:14,837] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:51:14,838] {logging_mixin.py:115} INFO - [2024-03-11 23:51:14,838] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:51:14,853] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:51:14,877] {logging_mixin.py:115} INFO - [2024-03-11 23:51:14,877] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:51:14,904] {logging_mixin.py:115} INFO - [2024-03-11 23:51:14,904] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:51:14,934] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.110 seconds
+[2024-03-11 23:51:49,439] {processor.py:153} INFO - Started process (PID=65438) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:51:49,441] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:51:49,442] {logging_mixin.py:115} INFO - [2024-03-11 23:51:49,442] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:51:49,457] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:51:49,482] {logging_mixin.py:115} INFO - [2024-03-11 23:51:49,482] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:51:49,510] {logging_mixin.py:115} INFO - [2024-03-11 23:51:49,510] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:51:49,533] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.102 seconds
+[2024-03-11 23:52:20,250] {processor.py:153} INFO - Started process (PID=65838) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:52:20,252] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:52:20,253] {logging_mixin.py:115} INFO - [2024-03-11 23:52:20,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:52:20,271] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:52:20,298] {logging_mixin.py:115} INFO - [2024-03-11 23:52:20,297] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:52:20,327] {logging_mixin.py:115} INFO - [2024-03-11 23:52:20,326] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:52:20,352] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.111 seconds
+[2024-03-11 23:52:53,851] {processor.py:153} INFO - Started process (PID=66230) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:52:53,855] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:52:53,856] {logging_mixin.py:115} INFO - [2024-03-11 23:52:53,856] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:52:53,868] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:52:53,905] {logging_mixin.py:115} INFO - [2024-03-11 23:52:53,905] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:52:53,948] {logging_mixin.py:115} INFO - [2024-03-11 23:52:53,948] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:52:53,999] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.154 seconds
+[2024-03-11 23:53:27,784] {processor.py:153} INFO - Started process (PID=66708) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:53:27,789] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:53:27,790] {logging_mixin.py:115} INFO - [2024-03-11 23:53:27,790] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:53:27,826] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:53:27,869] {logging_mixin.py:115} INFO - [2024-03-11 23:53:27,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:53:27,918] {logging_mixin.py:115} INFO - [2024-03-11 23:53:27,918] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:53:27,946] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.180 seconds
+[2024-03-11 23:54:00,216] {processor.py:153} INFO - Started process (PID=67034) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:54:00,218] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:54:00,219] {logging_mixin.py:115} INFO - [2024-03-11 23:54:00,219] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:54:00,244] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:54:00,284] {logging_mixin.py:115} INFO - [2024-03-11 23:54:00,284] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:54:00,399] {logging_mixin.py:115} INFO - [2024-03-11 23:54:00,398] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:54:00,550] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.342 seconds
+[2024-03-11 23:54:37,432] {processor.py:153} INFO - Started process (PID=67354) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:54:37,435] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:54:37,436] {logging_mixin.py:115} INFO - [2024-03-11 23:54:37,435] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:54:37,452] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:54:37,486] {logging_mixin.py:115} INFO - [2024-03-11 23:54:37,485] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:54:37,563] {logging_mixin.py:115} INFO - [2024-03-11 23:54:37,563] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:54:37,645] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.219 seconds
+[2024-03-11 23:55:15,286] {processor.py:153} INFO - Started process (PID=67851) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:55:15,287] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:55:15,288] {logging_mixin.py:115} INFO - [2024-03-11 23:55:15,288] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:55:15,300] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:55:15,326] {logging_mixin.py:115} INFO - [2024-03-11 23:55:15,326] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:55:15,353] {logging_mixin.py:115} INFO - [2024-03-11 23:55:15,353] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:55:15,379] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.098 seconds
+[2024-03-11 23:55:50,855] {processor.py:153} INFO - Started process (PID=68065) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:55:50,857] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:55:50,857] {logging_mixin.py:115} INFO - [2024-03-11 23:55:50,857] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:55:50,869] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:55:50,894] {logging_mixin.py:115} INFO - [2024-03-11 23:55:50,894] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:55:50,922] {logging_mixin.py:115} INFO - [2024-03-11 23:55:50,922] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:55:50,956] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.106 seconds
+[2024-03-11 23:56:24,942] {processor.py:153} INFO - Started process (PID=68335) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:56:24,943] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:56:24,944] {logging_mixin.py:115} INFO - [2024-03-11 23:56:24,944] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:56:25,005] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:56:25,119] {logging_mixin.py:115} INFO - [2024-03-11 23:56:25,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:56:25,183] {logging_mixin.py:115} INFO - [2024-03-11 23:56:25,182] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:56:25,236] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.309 seconds
+[2024-03-11 23:56:58,785] {processor.py:153} INFO - Started process (PID=68597) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:56:58,788] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:56:58,789] {logging_mixin.py:115} INFO - [2024-03-11 23:56:58,789] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:56:58,801] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:56:58,826] {logging_mixin.py:115} INFO - [2024-03-11 23:56:58,826] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:56:58,854] {logging_mixin.py:115} INFO - [2024-03-11 23:56:58,854] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:56:58,874] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.103 seconds
+[2024-03-11 23:57:35,540] {processor.py:153} INFO - Started process (PID=68816) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:57:35,543] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:57:35,544] {logging_mixin.py:115} INFO - [2024-03-11 23:57:35,544] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:57:35,556] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:57:35,580] {logging_mixin.py:115} INFO - [2024-03-11 23:57:35,580] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:57:35,606] {logging_mixin.py:115} INFO - [2024-03-11 23:57:35,606] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:57:35,630] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.106 seconds
+[2024-03-11 23:58:14,904] {processor.py:153} INFO - Started process (PID=69221) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:58:14,906] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:58:14,908] {logging_mixin.py:115} INFO - [2024-03-11 23:58:14,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:58:14,930] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:58:14,992] {logging_mixin.py:115} INFO - [2024-03-11 23:58:14,991] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:58:15,040] {logging_mixin.py:115} INFO - [2024-03-11 23:58:15,039] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:58:15,064] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.168 seconds
+[2024-03-11 23:58:46,598] {processor.py:153} INFO - Started process (PID=69458) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:58:46,601] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:58:46,602] {logging_mixin.py:115} INFO - [2024-03-11 23:58:46,602] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:58:46,619] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:58:46,648] {logging_mixin.py:115} INFO - [2024-03-11 23:58:46,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:58:46,681] {logging_mixin.py:115} INFO - [2024-03-11 23:58:46,681] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:58:46,707] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.119 seconds
+[2024-03-11 23:59:19,044] {processor.py:153} INFO - Started process (PID=69682) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:59:19,046] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:59:19,047] {logging_mixin.py:115} INFO - [2024-03-11 23:59:19,047] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:59:19,065] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:59:19,109] {logging_mixin.py:115} INFO - [2024-03-11 23:59:19,108] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:59:19,171] {logging_mixin.py:115} INFO - [2024-03-11 23:59:19,170] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:59:19,202] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.164 seconds
+[2024-03-11 23:59:55,221] {processor.py:153} INFO - Started process (PID=69989) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:59:55,223] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-11 23:59:55,224] {logging_mixin.py:115} INFO - [2024-03-11 23:59:55,224] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:59:55,240] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-11 23:59:55,273] {logging_mixin.py:115} INFO - [2024-03-11 23:59:55,272] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 23:59:55,314] {logging_mixin.py:115} INFO - [2024-03-11 23:59:55,314] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-11 23:59:55,346] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.132 seconds
+[2024-03-12 00:00:31,989] {processor.py:153} INFO - Started process (PID=70344) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:00:31,993] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:00:31,995] {logging_mixin.py:115} INFO - [2024-03-12 00:00:31,994] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:00:32,015] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:00:32,048] {logging_mixin.py:115} INFO - [2024-03-12 00:00:32,047] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:00:32,093] {logging_mixin.py:115} INFO - [2024-03-12 00:00:32,093] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:00:32,119] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.140 seconds
+[2024-03-12 00:01:08,631] {processor.py:153} INFO - Started process (PID=70566) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:01:08,633] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:01:08,634] {logging_mixin.py:115} INFO - [2024-03-12 00:01:08,634] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:01:08,646] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:01:08,672] {logging_mixin.py:115} INFO - [2024-03-12 00:01:08,672] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:01:08,700] {logging_mixin.py:115} INFO - [2024-03-12 00:01:08,700] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:01:08,723] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.111 seconds
+[2024-03-12 00:01:43,568] {processor.py:153} INFO - Started process (PID=70780) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:01:43,571] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:01:43,573] {logging_mixin.py:115} INFO - [2024-03-12 00:01:43,573] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:01:43,597] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:01:43,690] {logging_mixin.py:115} INFO - [2024-03-12 00:01:43,689] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:01:43,772] {logging_mixin.py:115} INFO - [2024-03-12 00:01:43,772] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:01:43,816] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.267 seconds
+[2024-03-12 00:02:23,225] {processor.py:153} INFO - Started process (PID=71209) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:02:23,228] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:02:23,230] {logging_mixin.py:115} INFO - [2024-03-12 00:02:23,230] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:02:23,245] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:02:23,298] {logging_mixin.py:115} INFO - [2024-03-12 00:02:23,297] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:02:23,358] {logging_mixin.py:115} INFO - [2024-03-12 00:02:23,357] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:02:23,405] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.194 seconds
+[2024-03-12 00:03:01,678] {processor.py:153} INFO - Started process (PID=71672) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:03:01,681] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:03:01,684] {logging_mixin.py:115} INFO - [2024-03-12 00:03:01,683] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:03:01,699] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:03:01,736] {logging_mixin.py:115} INFO - [2024-03-12 00:03:01,735] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:03:01,787] {logging_mixin.py:115} INFO - [2024-03-12 00:03:01,787] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:03:01,827] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.158 seconds
+[2024-03-12 00:03:44,191] {processor.py:153} INFO - Started process (PID=72204) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:03:44,194] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:03:44,199] {logging_mixin.py:115} INFO - [2024-03-12 00:03:44,199] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:03:44,220] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:03:44,286] {logging_mixin.py:115} INFO - [2024-03-12 00:03:44,286] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:03:44,345] {logging_mixin.py:115} INFO - [2024-03-12 00:03:44,345] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:03:44,393] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.211 seconds
+[2024-03-12 00:04:18,791] {processor.py:153} INFO - Started process (PID=72737) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:04:18,794] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:04:18,796] {logging_mixin.py:115} INFO - [2024-03-12 00:04:18,795] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:04:18,829] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:04:18,911] {logging_mixin.py:115} INFO - [2024-03-12 00:04:18,911] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:04:18,977] {logging_mixin.py:115} INFO - [2024-03-12 00:04:18,977] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:04:19,020] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.247 seconds
+[2024-03-12 00:04:58,296] {processor.py:153} INFO - Started process (PID=73242) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:04:58,299] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:04:58,304] {logging_mixin.py:115} INFO - [2024-03-12 00:04:58,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:04:58,325] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:04:58,357] {logging_mixin.py:115} INFO - [2024-03-12 00:04:58,357] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:04:58,395] {logging_mixin.py:115} INFO - [2024-03-12 00:04:58,395] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:04:58,423] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.136 seconds
+[2024-03-12 00:05:29,721] {processor.py:153} INFO - Started process (PID=73433) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:05:29,723] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:05:29,724] {logging_mixin.py:115} INFO - [2024-03-12 00:05:29,723] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:05:29,735] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:05:29,762] {logging_mixin.py:115} INFO - [2024-03-12 00:05:29,761] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:05:29,788] {logging_mixin.py:115} INFO - [2024-03-12 00:05:29,788] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:05:29,818] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.112 seconds
+[2024-03-12 00:06:04,594] {processor.py:153} INFO - Started process (PID=73645) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:06:04,596] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:06:04,598] {logging_mixin.py:115} INFO - [2024-03-12 00:06:04,598] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:06:04,614] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:06:04,644] {logging_mixin.py:115} INFO - [2024-03-12 00:06:04,643] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:06:04,675] {logging_mixin.py:115} INFO - [2024-03-12 00:06:04,675] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:06:04,698] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.111 seconds
+[2024-03-12 00:06:45,952] {processor.py:153} INFO - Started process (PID=74079) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:06:45,955] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:06:45,958] {logging_mixin.py:115} INFO - [2024-03-12 00:06:45,957] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:06:46,011] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:06:46,127] {logging_mixin.py:115} INFO - [2024-03-12 00:06:46,127] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:06:46,250] {logging_mixin.py:115} INFO - [2024-03-12 00:06:46,250] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:06:46,375] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.439 seconds
+[2024-03-12 00:07:24,009] {processor.py:153} INFO - Started process (PID=74599) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:07:24,012] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:07:24,013] {logging_mixin.py:115} INFO - [2024-03-12 00:07:24,013] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:07:24,026] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:07:24,062] {logging_mixin.py:115} INFO - [2024-03-12 00:07:24,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:07:24,106] {logging_mixin.py:115} INFO - [2024-03-12 00:07:24,106] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:07:24,137] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.135 seconds
+[2024-03-12 00:07:56,780] {processor.py:153} INFO - Started process (PID=74915) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:07:56,784] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:07:56,786] {logging_mixin.py:115} INFO - [2024-03-12 00:07:56,785] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:07:56,823] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:07:56,928] {logging_mixin.py:115} INFO - [2024-03-12 00:07:56,927] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:07:57,019] {logging_mixin.py:115} INFO - [2024-03-12 00:07:57,019] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:07:57,096] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.329 seconds
+[2024-03-12 00:08:31,580] {processor.py:153} INFO - Started process (PID=75240) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:08:31,581] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:08:31,583] {logging_mixin.py:115} INFO - [2024-03-12 00:08:31,583] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:08:31,605] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:08:31,636] {logging_mixin.py:115} INFO - [2024-03-12 00:08:31,636] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:08:31,673] {logging_mixin.py:115} INFO - [2024-03-12 00:08:31,673] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:08:31,707] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.134 seconds
+[2024-03-12 00:09:10,526] {processor.py:153} INFO - Started process (PID=75631) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:09:10,528] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:09:10,529] {logging_mixin.py:115} INFO - [2024-03-12 00:09:10,529] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:09:10,546] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:09:10,575] {logging_mixin.py:115} INFO - [2024-03-12 00:09:10,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:09:10,614] {logging_mixin.py:115} INFO - [2024-03-12 00:09:10,614] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:09:10,657] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.135 seconds
+[2024-03-12 00:09:43,825] {processor.py:153} INFO - Started process (PID=75950) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:09:43,827] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:09:43,828] {logging_mixin.py:115} INFO - [2024-03-12 00:09:43,828] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:09:43,848] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:09:43,891] {logging_mixin.py:115} INFO - [2024-03-12 00:09:43,891] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:09:43,922] {logging_mixin.py:115} INFO - [2024-03-12 00:09:43,922] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:09:43,946] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.128 seconds
+[2024-03-12 00:10:18,670] {processor.py:153} INFO - Started process (PID=76227) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:10:18,671] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:10:18,672] {logging_mixin.py:115} INFO - [2024-03-12 00:10:18,672] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:10:18,685] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:10:18,723] {logging_mixin.py:115} INFO - [2024-03-12 00:10:18,723] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:10:18,771] {logging_mixin.py:115} INFO - [2024-03-12 00:10:18,770] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:10:18,804] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.140 seconds
+[2024-03-12 00:10:52,468] {processor.py:153} INFO - Started process (PID=76502) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:10:52,470] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:10:52,471] {logging_mixin.py:115} INFO - [2024-03-12 00:10:52,471] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:10:52,492] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:10:52,521] {logging_mixin.py:115} INFO - [2024-03-12 00:10:52,520] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:10:52,563] {logging_mixin.py:115} INFO - [2024-03-12 00:10:52,563] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:10:52,596] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.134 seconds
+[2024-03-12 00:11:26,593] {processor.py:153} INFO - Started process (PID=76841) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:11:26,595] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:11:26,596] {logging_mixin.py:115} INFO - [2024-03-12 00:11:26,596] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:11:26,613] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:11:26,658] {logging_mixin.py:115} INFO - [2024-03-12 00:11:26,658] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:11:26,706] {logging_mixin.py:115} INFO - [2024-03-12 00:11:26,706] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:11:26,738] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.151 seconds
+[2024-03-12 00:12:01,829] {processor.py:153} INFO - Started process (PID=77266) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:12:01,831] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:12:01,832] {logging_mixin.py:115} INFO - [2024-03-12 00:12:01,832] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:12:01,846] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:12:01,880] {logging_mixin.py:115} INFO - [2024-03-12 00:12:01,879] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:12:01,918] {logging_mixin.py:115} INFO - [2024-03-12 00:12:01,918] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:12:01,950] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.127 seconds
+[2024-03-12 00:12:35,378] {processor.py:153} INFO - Started process (PID=77604) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:12:35,388] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:12:35,392] {logging_mixin.py:115} INFO - [2024-03-12 00:12:35,391] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:12:35,425] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:12:35,536] {logging_mixin.py:115} INFO - [2024-03-12 00:12:35,535] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:12:35,663] {logging_mixin.py:115} INFO - [2024-03-12 00:12:35,663] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:12:35,804] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.442 seconds
+[2024-03-12 00:13:13,897] {processor.py:153} INFO - Started process (PID=77998) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:13:13,899] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:13:13,901] {logging_mixin.py:115} INFO - [2024-03-12 00:13:13,900] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:13:13,914] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:13:13,946] {logging_mixin.py:115} INFO - [2024-03-12 00:13:13,946] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:13:13,977] {logging_mixin.py:115} INFO - [2024-03-12 00:13:13,977] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:13:14,012] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.121 seconds
+[2024-03-12 00:13:46,812] {processor.py:153} INFO - Started process (PID=78262) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:13:46,813] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:13:46,815] {logging_mixin.py:115} INFO - [2024-03-12 00:13:46,814] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:13:46,829] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:13:46,884] {logging_mixin.py:115} INFO - [2024-03-12 00:13:46,884] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:13:46,933] {logging_mixin.py:115} INFO - [2024-03-12 00:13:46,933] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:13:46,959] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.153 seconds
+[2024-03-12 00:14:21,238] {processor.py:153} INFO - Started process (PID=78622) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:14:21,241] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:14:21,243] {logging_mixin.py:115} INFO - [2024-03-12 00:14:21,242] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:14:21,260] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:14:21,291] {logging_mixin.py:115} INFO - [2024-03-12 00:14:21,291] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:14:21,354] {logging_mixin.py:115} INFO - [2024-03-12 00:14:21,354] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:14:21,457] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.234 seconds
+[2024-03-12 00:14:53,453] {processor.py:153} INFO - Started process (PID=78947) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:14:53,457] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:14:53,459] {logging_mixin.py:115} INFO - [2024-03-12 00:14:53,458] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:14:53,495] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:14:53,568] {logging_mixin.py:115} INFO - [2024-03-12 00:14:53,568] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:14:53,656] {logging_mixin.py:115} INFO - [2024-03-12 00:14:53,656] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:14:53,706] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.264 seconds
+[2024-03-12 00:15:29,177] {processor.py:153} INFO - Started process (PID=79278) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:15:29,180] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:15:29,182] {logging_mixin.py:115} INFO - [2024-03-12 00:15:29,182] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:15:29,195] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:15:29,225] {logging_mixin.py:115} INFO - [2024-03-12 00:15:29,225] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:15:29,267] {logging_mixin.py:115} INFO - [2024-03-12 00:15:29,267] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:15:29,295] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.124 seconds
+[2024-03-12 00:16:10,676] {processor.py:153} INFO - Started process (PID=79515) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:16:10,677] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:16:10,678] {logging_mixin.py:115} INFO - [2024-03-12 00:16:10,678] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:16:10,706] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:16:10,756] {logging_mixin.py:115} INFO - [2024-03-12 00:16:10,756] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:16:10,796] {logging_mixin.py:115} INFO - [2024-03-12 00:16:10,795] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:16:10,855] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.187 seconds
+[2024-03-12 00:16:49,602] {processor.py:153} INFO - Started process (PID=79793) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:16:49,604] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:16:49,605] {logging_mixin.py:115} INFO - [2024-03-12 00:16:49,605] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:16:49,627] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:16:49,698] {logging_mixin.py:115} INFO - [2024-03-12 00:16:49,697] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:16:49,885] {logging_mixin.py:115} INFO - [2024-03-12 00:16:49,885] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:16:50,330] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.735 seconds
+[2024-03-12 00:17:21,713] {processor.py:153} INFO - Started process (PID=80032) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:17:21,714] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:17:21,716] {logging_mixin.py:115} INFO - [2024-03-12 00:17:21,716] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:17:21,748] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:17:21,822] {logging_mixin.py:115} INFO - [2024-03-12 00:17:21,822] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:17:21,892] {logging_mixin.py:115} INFO - [2024-03-12 00:17:21,891] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:17:21,946] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.250 seconds
+[2024-03-12 00:17:58,660] {processor.py:153} INFO - Started process (PID=80257) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:17:58,662] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:17:58,663] {logging_mixin.py:115} INFO - [2024-03-12 00:17:58,663] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:17:58,675] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:17:58,701] {logging_mixin.py:115} INFO - [2024-03-12 00:17:58,701] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:17:58,730] {logging_mixin.py:115} INFO - [2024-03-12 00:17:58,730] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:17:58,755] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.105 seconds
+[2024-03-12 00:18:33,646] {processor.py:153} INFO - Started process (PID=80464) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:18:33,648] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:18:33,650] {logging_mixin.py:115} INFO - [2024-03-12 00:18:33,650] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:18:33,664] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:18:33,690] {logging_mixin.py:115} INFO - [2024-03-12 00:18:33,690] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:18:33,721] {logging_mixin.py:115} INFO - [2024-03-12 00:18:33,721] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:18:33,746] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.109 seconds
+[2024-03-12 00:19:07,505] {processor.py:153} INFO - Started process (PID=80731) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:19:07,507] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:19:07,508] {logging_mixin.py:115} INFO - [2024-03-12 00:19:07,508] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:19:07,525] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:19:07,556] {logging_mixin.py:115} INFO - [2024-03-12 00:19:07,556] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:19:07,609] {logging_mixin.py:115} INFO - [2024-03-12 00:19:07,609] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:19:07,693] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.194 seconds
+[2024-03-12 00:19:40,369] {processor.py:153} INFO - Started process (PID=81065) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:19:40,375] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:19:40,376] {logging_mixin.py:115} INFO - [2024-03-12 00:19:40,376] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:19:40,413] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:19:40,505] {logging_mixin.py:115} INFO - [2024-03-12 00:19:40,504] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:19:40,623] {logging_mixin.py:115} INFO - [2024-03-12 00:19:40,623] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:19:40,902] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.540 seconds
+[2024-03-12 00:20:14,854] {processor.py:153} INFO - Started process (PID=81428) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:20:14,858] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:20:14,864] {logging_mixin.py:115} INFO - [2024-03-12 00:20:14,863] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:20:14,889] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:20:14,930] {logging_mixin.py:115} INFO - [2024-03-12 00:20:14,929] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:20:14,969] {logging_mixin.py:115} INFO - [2024-03-12 00:20:14,969] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:20:14,996] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.149 seconds
+[2024-03-12 00:20:58,191] {processor.py:153} INFO - Started process (PID=81864) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:20:58,193] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:20:58,195] {logging_mixin.py:115} INFO - [2024-03-12 00:20:58,195] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:20:58,222] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:20:58,302] {logging_mixin.py:115} INFO - [2024-03-12 00:20:58,301] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:20:58,346] {logging_mixin.py:115} INFO - [2024-03-12 00:20:58,346] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:20:58,403] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.218 seconds
+[2024-03-12 00:21:41,521] {processor.py:153} INFO - Started process (PID=82299) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:21:41,531] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:21:41,535] {logging_mixin.py:115} INFO - [2024-03-12 00:21:41,534] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:21:41,584] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:21:41,669] {logging_mixin.py:115} INFO - [2024-03-12 00:21:41,669] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:21:41,740] {logging_mixin.py:115} INFO - [2024-03-12 00:21:41,740] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:21:41,817] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.315 seconds
+[2024-03-12 00:22:13,957] {processor.py:153} INFO - Started process (PID=82633) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:22:13,958] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:22:13,959] {logging_mixin.py:115} INFO - [2024-03-12 00:22:13,959] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:22:13,974] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:22:14,009] {logging_mixin.py:115} INFO - [2024-03-12 00:22:14,009] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:22:14,046] {logging_mixin.py:115} INFO - [2024-03-12 00:22:14,046] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:22:14,074] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.126 seconds
+[2024-03-12 00:22:46,691] {processor.py:153} INFO - Started process (PID=82895) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:22:46,735] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:22:46,772] {logging_mixin.py:115} INFO - [2024-03-12 00:22:46,772] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:22:46,862] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:22:46,962] {logging_mixin.py:115} INFO - [2024-03-12 00:22:46,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:22:47,063] {logging_mixin.py:115} INFO - [2024-03-12 00:22:47,062] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:22:47,115] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.801 seconds
+[2024-03-12 00:23:21,910] {processor.py:153} INFO - Started process (PID=83271) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:23:21,912] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:23:21,914] {logging_mixin.py:115} INFO - [2024-03-12 00:23:21,914] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:23:21,929] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:23:21,968] {logging_mixin.py:115} INFO - [2024-03-12 00:23:21,968] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:23:22,003] {logging_mixin.py:115} INFO - [2024-03-12 00:23:22,003] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:23:22,033] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.128 seconds
+[2024-03-12 00:23:53,343] {processor.py:153} INFO - Started process (PID=83600) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:23:53,353] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:23:53,356] {logging_mixin.py:115} INFO - [2024-03-12 00:23:53,355] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:23:53,400] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:23:53,471] {logging_mixin.py:115} INFO - [2024-03-12 00:23:53,471] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:23:53,563] {logging_mixin.py:115} INFO - [2024-03-12 00:23:53,563] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:23:53,642] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.308 seconds
+[2024-03-12 00:24:31,222] {processor.py:153} INFO - Started process (PID=83982) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:24:31,224] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:24:31,225] {logging_mixin.py:115} INFO - [2024-03-12 00:24:31,225] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:24:31,237] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:24:31,264] {logging_mixin.py:115} INFO - [2024-03-12 00:24:31,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:24:31,293] {logging_mixin.py:115} INFO - [2024-03-12 00:24:31,293] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:24:31,323] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.107 seconds
+[2024-03-12 00:25:01,443] {processor.py:153} INFO - Started process (PID=84347) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:25:01,448] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:25:01,449] {logging_mixin.py:115} INFO - [2024-03-12 00:25:01,449] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:25:01,463] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:25:01,495] {logging_mixin.py:115} INFO - [2024-03-12 00:25:01,495] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:25:01,542] {logging_mixin.py:115} INFO - [2024-03-12 00:25:01,541] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:25:01,584] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.150 seconds
+[2024-03-12 00:25:39,822] {processor.py:153} INFO - Started process (PID=84737) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:25:39,823] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:25:39,824] {logging_mixin.py:115} INFO - [2024-03-12 00:25:39,824] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:25:39,844] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:25:39,923] {logging_mixin.py:115} INFO - [2024-03-12 00:25:39,923] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:25:40,029] {logging_mixin.py:115} INFO - [2024-03-12 00:25:40,028] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:25:40,109] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.293 seconds
+[2024-03-12 00:26:18,146] {processor.py:153} INFO - Started process (PID=85072) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:26:18,149] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:26:18,152] {logging_mixin.py:115} INFO - [2024-03-12 00:26:18,151] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:26:18,177] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:26:18,245] {logging_mixin.py:115} INFO - [2024-03-12 00:26:18,245] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:26:18,299] {logging_mixin.py:115} INFO - [2024-03-12 00:26:18,299] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:26:18,352] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.212 seconds
+[2024-03-12 00:26:50,742] {processor.py:153} INFO - Started process (PID=85426) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:26:50,744] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:26:50,746] {logging_mixin.py:115} INFO - [2024-03-12 00:26:50,745] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:26:50,765] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:26:50,804] {logging_mixin.py:115} INFO - [2024-03-12 00:26:50,804] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:26:50,856] {logging_mixin.py:115} INFO - [2024-03-12 00:26:50,856] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:26:50,902] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.173 seconds
+[2024-03-12 00:27:38,853] {processor.py:153} INFO - Started process (PID=85884) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:27:38,861] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:27:38,862] {logging_mixin.py:115} INFO - [2024-03-12 00:27:38,862] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:27:38,905] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:27:39,019] {logging_mixin.py:115} INFO - [2024-03-12 00:27:39,019] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:27:39,098] {logging_mixin.py:115} INFO - [2024-03-12 00:27:39,097] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:27:39,176] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.332 seconds
+[2024-03-12 00:28:23,311] {processor.py:153} INFO - Started process (PID=86314) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:28:23,316] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:28:23,317] {logging_mixin.py:115} INFO - [2024-03-12 00:28:23,317] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:28:23,330] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:28:23,369] {logging_mixin.py:115} INFO - [2024-03-12 00:28:23,369] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:28:23,407] {logging_mixin.py:115} INFO - [2024-03-12 00:28:23,407] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:28:23,437] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.133 seconds
+[2024-03-12 00:28:57,799] {processor.py:153} INFO - Started process (PID=86679) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:28:57,801] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:28:57,806] {logging_mixin.py:115} INFO - [2024-03-12 00:28:57,802] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:28:57,835] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:28:57,914] {logging_mixin.py:115} INFO - [2024-03-12 00:28:57,914] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:28:58,009] {logging_mixin.py:115} INFO - [2024-03-12 00:28:58,009] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:28:58,080] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.287 seconds
+[2024-03-12 00:29:40,897] {processor.py:153} INFO - Started process (PID=87067) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:29:40,899] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:29:40,899] {logging_mixin.py:115} INFO - [2024-03-12 00:29:40,899] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:29:40,913] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:29:40,952] {logging_mixin.py:115} INFO - [2024-03-12 00:29:40,952] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:29:40,995] {logging_mixin.py:115} INFO - [2024-03-12 00:29:40,995] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:29:41,024] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.141 seconds
+[2024-03-12 00:30:13,116] {processor.py:153} INFO - Started process (PID=87399) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:30:13,118] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:30:13,119] {logging_mixin.py:115} INFO - [2024-03-12 00:30:13,118] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:30:13,142] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:30:13,207] {logging_mixin.py:115} INFO - [2024-03-12 00:30:13,206] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:30:13,268] {logging_mixin.py:115} INFO - [2024-03-12 00:30:13,268] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:30:13,301] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.191 seconds
+[2024-03-12 00:30:48,106] {processor.py:153} INFO - Started process (PID=87820) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:30:48,108] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:30:48,112] {logging_mixin.py:115} INFO - [2024-03-12 00:30:48,111] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:30:48,131] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:30:48,165] {logging_mixin.py:115} INFO - [2024-03-12 00:30:48,165] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:30:48,208] {logging_mixin.py:115} INFO - [2024-03-12 00:30:48,207] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:30:48,238] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.140 seconds
+[2024-03-12 00:31:21,685] {processor.py:153} INFO - Started process (PID=88238) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:31:21,687] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:31:21,688] {logging_mixin.py:115} INFO - [2024-03-12 00:31:21,688] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:31:21,718] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:31:21,783] {logging_mixin.py:115} INFO - [2024-03-12 00:31:21,783] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:31:21,834] {logging_mixin.py:115} INFO - [2024-03-12 00:31:21,834] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:31:21,890] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.212 seconds
+[2024-03-12 00:32:05,379] {processor.py:153} INFO - Started process (PID=88830) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:32:05,384] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:32:05,390] {logging_mixin.py:115} INFO - [2024-03-12 00:32:05,390] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:32:05,405] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:32:05,470] {logging_mixin.py:115} INFO - [2024-03-12 00:32:05,470] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:32:05,570] {logging_mixin.py:115} INFO - [2024-03-12 00:32:05,570] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:32:05,610] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.241 seconds
+[2024-03-12 00:32:38,865] {processor.py:153} INFO - Started process (PID=89204) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:32:38,867] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:32:38,871] {logging_mixin.py:115} INFO - [2024-03-12 00:32:38,871] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:32:38,896] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:32:38,951] {logging_mixin.py:115} INFO - [2024-03-12 00:32:38,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:32:39,002] {logging_mixin.py:115} INFO - [2024-03-12 00:32:39,002] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:32:39,038] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.178 seconds
+[2024-03-12 00:33:13,396] {processor.py:153} INFO - Started process (PID=89413) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:33:13,398] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:33:13,401] {logging_mixin.py:115} INFO - [2024-03-12 00:33:13,400] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:33:13,417] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:33:13,457] {logging_mixin.py:115} INFO - [2024-03-12 00:33:13,457] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:33:13,498] {logging_mixin.py:115} INFO - [2024-03-12 00:33:13,498] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:33:13,522] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.132 seconds
+[2024-03-12 00:33:45,105] {processor.py:153} INFO - Started process (PID=89641) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:33:45,106] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:33:45,107] {logging_mixin.py:115} INFO - [2024-03-12 00:33:45,107] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:33:45,132] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:33:45,177] {logging_mixin.py:115} INFO - [2024-03-12 00:33:45,177] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:33:45,242] {logging_mixin.py:115} INFO - [2024-03-12 00:33:45,242] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:33:45,298] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.209 seconds
+[2024-03-12 00:34:16,970] {processor.py:153} INFO - Started process (PID=89925) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:34:16,971] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:34:16,973] {logging_mixin.py:115} INFO - [2024-03-12 00:34:16,972] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:34:16,984] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:34:17,017] {logging_mixin.py:115} INFO - [2024-03-12 00:34:17,016] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:34:17,063] {logging_mixin.py:115} INFO - [2024-03-12 00:34:17,063] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:34:17,094] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.133 seconds
+[2024-03-12 00:34:49,864] {processor.py:153} INFO - Started process (PID=90303) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:34:49,865] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:34:49,866] {logging_mixin.py:115} INFO - [2024-03-12 00:34:49,866] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:34:49,890] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:34:49,940] {logging_mixin.py:115} INFO - [2024-03-12 00:34:49,940] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:34:49,988] {logging_mixin.py:115} INFO - [2024-03-12 00:34:49,988] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:34:50,019] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.160 seconds
+[2024-03-12 00:35:29,868] {processor.py:153} INFO - Started process (PID=90795) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:35:29,870] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:35:29,872] {logging_mixin.py:115} INFO - [2024-03-12 00:35:29,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:35:29,885] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:35:29,921] {logging_mixin.py:115} INFO - [2024-03-12 00:35:29,921] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:35:29,968] {logging_mixin.py:115} INFO - [2024-03-12 00:35:29,967] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:35:30,002] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.139 seconds
+[2024-03-12 00:36:04,978] {processor.py:153} INFO - Started process (PID=91143) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:36:04,979] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:36:04,980] {logging_mixin.py:115} INFO - [2024-03-12 00:36:04,980] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:36:04,992] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:36:05,018] {logging_mixin.py:115} INFO - [2024-03-12 00:36:05,018] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:36:05,049] {logging_mixin.py:115} INFO - [2024-03-12 00:36:05,049] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:36:05,073] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.101 seconds
+[2024-03-12 00:36:36,907] {processor.py:153} INFO - Started process (PID=91459) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:36:36,908] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:36:36,910] {logging_mixin.py:115} INFO - [2024-03-12 00:36:36,910] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:36:36,942] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:36:37,000] {logging_mixin.py:115} INFO - [2024-03-12 00:36:36,999] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:36:37,078] {logging_mixin.py:115} INFO - [2024-03-12 00:36:37,078] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:36:37,119] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.229 seconds
+[2024-03-12 00:37:10,327] {processor.py:153} INFO - Started process (PID=91827) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:37:10,328] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:37:10,329] {logging_mixin.py:115} INFO - [2024-03-12 00:37:10,329] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:37:10,347] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:37:10,386] {logging_mixin.py:115} INFO - [2024-03-12 00:37:10,385] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:37:10,430] {logging_mixin.py:115} INFO - [2024-03-12 00:37:10,429] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:37:10,467] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.145 seconds
+[2024-03-12 00:37:41,957] {processor.py:153} INFO - Started process (PID=92215) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:37:41,960] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:37:41,966] {logging_mixin.py:115} INFO - [2024-03-12 00:37:41,965] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:37:42,024] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:37:42,095] {logging_mixin.py:115} INFO - [2024-03-12 00:37:42,095] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:37:42,134] {logging_mixin.py:115} INFO - [2024-03-12 00:37:42,133] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:37:42,167] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.218 seconds
+[2024-03-12 00:38:13,462] {processor.py:153} INFO - Started process (PID=92519) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:38:13,466] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:38:13,469] {logging_mixin.py:115} INFO - [2024-03-12 00:38:13,468] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:38:13,492] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:38:13,534] {logging_mixin.py:115} INFO - [2024-03-12 00:38:13,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:38:13,579] {logging_mixin.py:115} INFO - [2024-03-12 00:38:13,578] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:38:13,608] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.151 seconds
+[2024-03-12 00:38:49,215] {processor.py:153} INFO - Started process (PID=92845) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:38:49,216] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:38:49,217] {logging_mixin.py:115} INFO - [2024-03-12 00:38:49,217] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:38:49,238] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:38:49,273] {logging_mixin.py:115} INFO - [2024-03-12 00:38:49,273] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:38:49,336] {logging_mixin.py:115} INFO - [2024-03-12 00:38:49,336] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:38:49,367] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.159 seconds
+[2024-03-12 00:39:23,848] {processor.py:153} INFO - Started process (PID=93127) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:39:23,854] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:39:23,855] {logging_mixin.py:115} INFO - [2024-03-12 00:39:23,855] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:39:23,876] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:39:23,927] {logging_mixin.py:115} INFO - [2024-03-12 00:39:23,926] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:39:23,992] {logging_mixin.py:115} INFO - [2024-03-12 00:39:23,992] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:39:24,035] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.195 seconds
+[2024-03-12 00:40:01,818] {processor.py:153} INFO - Started process (PID=93554) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:40:01,819] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:40:01,821] {logging_mixin.py:115} INFO - [2024-03-12 00:40:01,820] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:40:01,836] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:40:01,868] {logging_mixin.py:115} INFO - [2024-03-12 00:40:01,867] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:40:01,908] {logging_mixin.py:115} INFO - [2024-03-12 00:40:01,908] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:40:01,938] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.129 seconds
+[2024-03-12 00:40:34,940] {processor.py:153} INFO - Started process (PID=93794) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:40:34,942] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:40:34,943] {logging_mixin.py:115} INFO - [2024-03-12 00:40:34,943] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:40:34,962] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:40:35,016] {logging_mixin.py:115} INFO - [2024-03-12 00:40:35,016] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:40:35,079] {logging_mixin.py:115} INFO - [2024-03-12 00:40:35,079] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:40:35,124] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.190 seconds
+[2024-03-12 00:41:06,503] {processor.py:153} INFO - Started process (PID=94032) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:41:06,505] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:41:06,506] {logging_mixin.py:115} INFO - [2024-03-12 00:41:06,506] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:41:06,526] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:41:06,552] {logging_mixin.py:115} INFO - [2024-03-12 00:41:06,552] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:41:06,580] {logging_mixin.py:115} INFO - [2024-03-12 00:41:06,579] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:41:06,607] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.112 seconds
+[2024-03-12 00:41:43,118] {processor.py:153} INFO - Started process (PID=94253) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:41:43,119] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:41:43,120] {logging_mixin.py:115} INFO - [2024-03-12 00:41:43,120] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:41:43,133] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:41:43,159] {logging_mixin.py:115} INFO - [2024-03-12 00:41:43,159] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:41:43,189] {logging_mixin.py:115} INFO - [2024-03-12 00:41:43,189] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:41:43,213] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.104 seconds
+[2024-03-12 00:42:15,798] {processor.py:153} INFO - Started process (PID=94502) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:42:15,800] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:42:15,801] {logging_mixin.py:115} INFO - [2024-03-12 00:42:15,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:42:15,812] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:42:15,839] {logging_mixin.py:115} INFO - [2024-03-12 00:42:15,838] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:42:15,865] {logging_mixin.py:115} INFO - [2024-03-12 00:42:15,865] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:42:15,889] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.096 seconds
+[2024-03-12 00:42:50,725] {processor.py:153} INFO - Started process (PID=94707) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:42:50,728] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:42:50,731] {logging_mixin.py:115} INFO - [2024-03-12 00:42:50,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:42:50,746] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:42:50,771] {logging_mixin.py:115} INFO - [2024-03-12 00:42:50,771] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:42:50,797] {logging_mixin.py:115} INFO - [2024-03-12 00:42:50,797] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:42:50,821] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.112 seconds
+[2024-03-12 00:43:23,833] {processor.py:153} INFO - Started process (PID=94905) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:43:23,836] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:43:23,838] {logging_mixin.py:115} INFO - [2024-03-12 00:43:23,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:43:23,852] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:43:23,889] {logging_mixin.py:115} INFO - [2024-03-12 00:43:23,889] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:43:23,942] {logging_mixin.py:115} INFO - [2024-03-12 00:43:23,942] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:43:23,970] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.149 seconds
+[2024-03-12 00:44:03,605] {processor.py:153} INFO - Started process (PID=95139) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:44:03,608] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:44:03,610] {logging_mixin.py:115} INFO - [2024-03-12 00:44:03,610] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:44:03,623] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:44:03,665] {logging_mixin.py:115} INFO - [2024-03-12 00:44:03,665] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:44:03,717] {logging_mixin.py:115} INFO - [2024-03-12 00:44:03,717] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:44:03,749] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.153 seconds
+[2024-03-12 00:44:42,811] {processor.py:153} INFO - Started process (PID=95508) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:44:42,814] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:44:42,815] {logging_mixin.py:115} INFO - [2024-03-12 00:44:42,815] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:44:42,837] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:44:42,880] {logging_mixin.py:115} INFO - [2024-03-12 00:44:42,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:44:42,907] {logging_mixin.py:115} INFO - [2024-03-12 00:44:42,906] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:44:42,929] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.127 seconds
+[2024-03-12 00:45:22,236] {processor.py:153} INFO - Started process (PID=95923) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:45:22,238] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:45:22,239] {logging_mixin.py:115} INFO - [2024-03-12 00:45:22,238] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:45:22,250] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:45:22,275] {logging_mixin.py:115} INFO - [2024-03-12 00:45:22,275] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:45:22,305] {logging_mixin.py:115} INFO - [2024-03-12 00:45:22,305] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:45:22,327] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.096 seconds
+[2024-03-12 00:45:53,905] {processor.py:153} INFO - Started process (PID=96244) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:45:53,906] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:45:53,907] {logging_mixin.py:115} INFO - [2024-03-12 00:45:53,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:45:53,928] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:45:53,960] {logging_mixin.py:115} INFO - [2024-03-12 00:45:53,960] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:45:54,001] {logging_mixin.py:115} INFO - [2024-03-12 00:45:54,001] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:45:54,025] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.131 seconds
+[2024-03-12 00:46:33,711] {processor.py:153} INFO - Started process (PID=96642) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:46:33,714] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:46:33,717] {logging_mixin.py:115} INFO - [2024-03-12 00:46:33,717] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:46:33,748] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:46:33,786] {logging_mixin.py:115} INFO - [2024-03-12 00:46:33,786] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:46:33,816] {logging_mixin.py:115} INFO - [2024-03-12 00:46:33,816] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:46:33,838] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.140 seconds
+[2024-03-12 00:47:04,915] {processor.py:153} INFO - Started process (PID=97014) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:47:04,917] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:47:04,920] {logging_mixin.py:115} INFO - [2024-03-12 00:47:04,920] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:47:04,941] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:47:04,972] {logging_mixin.py:115} INFO - [2024-03-12 00:47:04,972] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:47:05,003] {logging_mixin.py:115} INFO - [2024-03-12 00:47:05,002] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:47:05,025] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.124 seconds
+[2024-03-12 00:47:41,783] {processor.py:153} INFO - Started process (PID=97392) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:47:41,786] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:47:41,788] {logging_mixin.py:115} INFO - [2024-03-12 00:47:41,788] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:47:41,806] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:47:41,830] {logging_mixin.py:115} INFO - [2024-03-12 00:47:41,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:47:41,859] {logging_mixin.py:115} INFO - [2024-03-12 00:47:41,859] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:47:41,883] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.113 seconds
+[2024-03-12 00:48:18,856] {processor.py:153} INFO - Started process (PID=97772) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:48:18,861] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:48:18,865] {logging_mixin.py:115} INFO - [2024-03-12 00:48:18,865] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:48:18,906] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:48:18,989] {logging_mixin.py:115} INFO - [2024-03-12 00:48:18,988] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:48:19,031] {logging_mixin.py:115} INFO - [2024-03-12 00:48:19,031] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:48:19,097] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.258 seconds
+[2024-03-12 00:48:53,749] {processor.py:153} INFO - Started process (PID=98137) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:48:53,753] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:48:53,756] {logging_mixin.py:115} INFO - [2024-03-12 00:48:53,756] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:48:53,790] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:48:53,825] {logging_mixin.py:115} INFO - [2024-03-12 00:48:53,825] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:48:53,855] {logging_mixin.py:115} INFO - [2024-03-12 00:48:53,855] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:48:53,881] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.146 seconds
+[2024-03-12 00:49:28,968] {processor.py:153} INFO - Started process (PID=98506) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:49:28,972] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:49:28,975] {logging_mixin.py:115} INFO - [2024-03-12 00:49:28,975] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:49:29,010] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:49:29,058] {logging_mixin.py:115} INFO - [2024-03-12 00:49:29,058] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:49:29,092] {logging_mixin.py:115} INFO - [2024-03-12 00:49:29,092] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:49:29,122] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.167 seconds
+[2024-03-12 00:50:05,437] {processor.py:153} INFO - Started process (PID=98884) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:50:05,442] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:50:05,445] {logging_mixin.py:115} INFO - [2024-03-12 00:50:05,444] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:50:05,478] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:50:05,529] {logging_mixin.py:115} INFO - [2024-03-12 00:50:05,529] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:50:05,555] {logging_mixin.py:115} INFO - [2024-03-12 00:50:05,555] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:50:05,581] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.157 seconds
+[2024-03-12 00:50:42,778] {processor.py:153} INFO - Started process (PID=99261) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:50:42,782] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:50:42,784] {logging_mixin.py:115} INFO - [2024-03-12 00:50:42,784] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:50:42,816] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:50:42,871] {logging_mixin.py:115} INFO - [2024-03-12 00:50:42,871] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:50:42,900] {logging_mixin.py:115} INFO - [2024-03-12 00:50:42,900] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:50:42,927] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.163 seconds
+[2024-03-12 00:51:16,110] {processor.py:153} INFO - Started process (PID=99618) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:51:16,152] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:51:16,155] {logging_mixin.py:115} INFO - [2024-03-12 00:51:16,154] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:51:16,189] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:51:16,222] {logging_mixin.py:115} INFO - [2024-03-12 00:51:16,221] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:51:16,251] {logging_mixin.py:115} INFO - [2024-03-12 00:51:16,251] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:51:16,276] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.180 seconds
+[2024-03-12 00:51:54,461] {processor.py:153} INFO - Started process (PID=100055) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:51:54,465] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:51:54,467] {logging_mixin.py:115} INFO - [2024-03-12 00:51:54,467] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:51:54,499] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:51:54,547] {logging_mixin.py:115} INFO - [2024-03-12 00:51:54,547] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:51:54,580] {logging_mixin.py:115} INFO - [2024-03-12 00:51:54,580] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:51:54,614] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.168 seconds
+[2024-03-12 00:52:27,887] {processor.py:153} INFO - Started process (PID=100392) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:52:27,892] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:52:27,893] {logging_mixin.py:115} INFO - [2024-03-12 00:52:27,893] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:52:27,912] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:52:27,944] {logging_mixin.py:115} INFO - [2024-03-12 00:52:27,944] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:52:27,976] {logging_mixin.py:115} INFO - [2024-03-12 00:52:27,975] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:52:28,001] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.129 seconds
+[2024-03-12 00:53:04,773] {processor.py:153} INFO - Started process (PID=100765) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:53:04,777] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:53:04,780] {logging_mixin.py:115} INFO - [2024-03-12 00:53:04,779] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:53:04,818] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:53:04,871] {logging_mixin.py:115} INFO - [2024-03-12 00:53:04,871] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:53:04,922] {logging_mixin.py:115} INFO - [2024-03-12 00:53:04,922] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:53:04,951] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.191 seconds
+[2024-03-12 00:53:36,579] {processor.py:153} INFO - Started process (PID=101116) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:53:36,581] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:53:36,583] {logging_mixin.py:115} INFO - [2024-03-12 00:53:36,583] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:53:36,608] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:53:36,643] {logging_mixin.py:115} INFO - [2024-03-12 00:53:36,643] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:53:36,671] {logging_mixin.py:115} INFO - [2024-03-12 00:53:36,671] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:53:36,694] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.126 seconds
+[2024-03-12 00:54:13,163] {processor.py:153} INFO - Started process (PID=101488) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:54:13,168] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:54:13,171] {logging_mixin.py:115} INFO - [2024-03-12 00:54:13,171] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:54:13,207] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:54:13,244] {logging_mixin.py:115} INFO - [2024-03-12 00:54:13,244] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:54:13,274] {logging_mixin.py:115} INFO - [2024-03-12 00:54:13,273] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:54:13,307] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.158 seconds
+[2024-03-12 00:54:52,394] {processor.py:153} INFO - Started process (PID=101879) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:54:52,396] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-03-12 00:54:52,397] {logging_mixin.py:115} INFO - [2024-03-12 00:54:52,397] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:54:52,410] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-03-12 00:54:52,435] {logging_mixin.py:115} INFO - [2024-03-12 00:54:52,435] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 00:54:52,467] {logging_mixin.py:115} INFO - [2024-03-12 00:54:52,467] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-03-12 00:54:52,488] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.102 seconds
