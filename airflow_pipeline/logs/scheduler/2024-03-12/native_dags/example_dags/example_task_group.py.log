@@ -1,0 +1,39 @@
+[2024-03-11 22:26:58,868] {processor.py:153} INFO - Started process (PID=16693) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:26:58,884] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-03-11 22:26:58,888] {logging_mixin.py:115} INFO - [2024-03-11 22:26:58,886] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:26:59,077] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:26:59,862] {logging_mixin.py:115} INFO - [2024-03-11 22:26:59,862] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2024-03-11 22:26:59,965] {logging_mixin.py:115} INFO - [2024-03-11 22:26:59,964] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2024-03-11 22:27:00,041] {logging_mixin.py:115} INFO - [2024-03-11 22:27:00,041] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2024-03-11 22:27:00,048] {logging_mixin.py:115} INFO - [2024-03-11 22:27:00,041] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:00,118] {logging_mixin.py:115} INFO - [2024-03-11 22:27:00,118] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2024-03-11 22:27:00,169] {logging_mixin.py:115} INFO - [2024-03-11 22:27:00,168] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-03-11T01:27:00.167996+00:00, run_after=2024-03-12T01:27:00.167996+00:00
+[2024-03-11 22:27:00,316] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 1.479 seconds
+[2024-03-11 22:27:49,067] {processor.py:153} INFO - Started process (PID=17296) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:27:49,075] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-03-11 22:27:49,077] {logging_mixin.py:115} INFO - [2024-03-11 22:27:49,077] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:27:49,106] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:27:49,194] {logging_mixin.py:115} INFO - [2024-03-11 22:27:49,194] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:49,271] {logging_mixin.py:115} INFO - [2024-03-11 22:27:49,271] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-03-11T01:27:49.269355+00:00, run_after=2024-03-12T01:27:49.269355+00:00
+[2024-03-11 22:27:49,315] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.255 seconds
+[2024-03-11 22:28:30,426] {processor.py:153} INFO - Started process (PID=17607) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:28:30,428] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-03-11 22:28:30,429] {logging_mixin.py:115} INFO - [2024-03-11 22:28:30,429] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:28:30,447] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:28:30,479] {logging_mixin.py:115} INFO - [2024-03-11 22:28:30,479] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:28:30,526] {logging_mixin.py:115} INFO - [2024-03-11 22:28:30,526] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-03-11T01:28:30.525808+00:00, run_after=2024-03-12T01:28:30.525808+00:00
+[2024-03-11 22:28:30,557] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.137 seconds
+[2024-03-11 22:29:11,889] {processor.py:153} INFO - Started process (PID=18005) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:29:11,891] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-03-11 22:29:11,893] {logging_mixin.py:115} INFO - [2024-03-11 22:29:11,893] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:29:11,905] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:29:11,954] {logging_mixin.py:115} INFO - [2024-03-11 22:29:11,954] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:11,998] {logging_mixin.py:115} INFO - [2024-03-11 22:29:11,998] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-03-11T01:29:11.998067+00:00, run_after=2024-03-12T01:29:11.998067+00:00
+[2024-03-11 22:29:12,027] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.144 seconds
+[2024-03-11 22:29:50,312] {processor.py:153} INFO - Started process (PID=18308) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:29:50,316] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-03-11 22:29:50,318] {logging_mixin.py:115} INFO - [2024-03-11 22:29:50,318] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:29:50,329] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-03-11 22:29:50,356] {logging_mixin.py:115} INFO - [2024-03-11 22:29:50,356] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:50,383] {logging_mixin.py:115} INFO - [2024-03-11 22:29:50,382] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-03-11T01:29:50.382459+00:00, run_after=2024-03-12T01:29:50.382459+00:00
+[2024-03-11 22:29:50,406] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds

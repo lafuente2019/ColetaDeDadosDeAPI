@@ -1,0 +1,32 @@
+[2024-03-11 22:27:31,450] {processor.py:153} INFO - Started process (PID=17028) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:27:31,451] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2024-03-11 22:27:31,453] {logging_mixin.py:115} INFO - [2024-03-11 22:27:31,453] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:27:31,789] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:27:32,338] {logging_mixin.py:115} INFO - [2024-03-11 22:27:32,338] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_weekday_branch_operator
+[2024-03-11 22:27:32,403] {logging_mixin.py:115} INFO - [2024-03-11 22:27:32,402] {manager.py:508} INFO - Created Permission View: can read on DAG:example_weekday_branch_operator
+[2024-03-11 22:27:32,459] {logging_mixin.py:115} INFO - [2024-03-11 22:27:32,459] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_weekday_branch_operator
+[2024-03-11 22:27:32,460] {logging_mixin.py:115} INFO - [2024-03-11 22:27:32,460] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:32,500] {logging_mixin.py:115} INFO - [2024-03-11 22:27:32,500] {dag.py:2398} INFO - Creating ORM DAG for example_weekday_branch_operator
+[2024-03-11 22:27:32,545] {logging_mixin.py:115} INFO - [2024-03-11 22:27:32,545] {dag.py:2927} INFO - Setting next_dagrun for example_weekday_branch_operator to 2024-03-11T00:00:00+00:00, run_after=2024-03-12T00:00:00+00:00
+[2024-03-11 22:27:32,612] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 1.313 seconds
+[2024-03-11 22:28:21,844] {processor.py:153} INFO - Started process (PID=17554) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:28:21,845] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2024-03-11 22:28:21,852] {logging_mixin.py:115} INFO - [2024-03-11 22:28:21,851] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:28:21,873] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:28:21,910] {logging_mixin.py:115} INFO - [2024-03-11 22:28:21,910] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:28:21,956] {logging_mixin.py:115} INFO - [2024-03-11 22:28:21,956] {dag.py:2927} INFO - Setting next_dagrun for example_weekday_branch_operator to 2024-03-11T00:00:00+00:00, run_after=2024-03-12T00:00:00+00:00
+[2024-03-11 22:28:21,981] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.153 seconds
+[2024-03-11 22:29:08,074] {processor.py:153} INFO - Started process (PID=17985) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:29:08,084] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2024-03-11 22:29:08,086] {logging_mixin.py:115} INFO - [2024-03-11 22:29:08,085] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:29:08,168] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:29:08,261] {logging_mixin.py:115} INFO - [2024-03-11 22:29:08,260] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:08,351] {logging_mixin.py:115} INFO - [2024-03-11 22:29:08,350] {dag.py:2927} INFO - Setting next_dagrun for example_weekday_branch_operator to 2024-03-11T00:00:00+00:00, run_after=2024-03-12T00:00:00+00:00
+[2024-03-11 22:29:08,447] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.391 seconds
+[2024-03-11 22:29:47,404] {processor.py:153} INFO - Started process (PID=18279) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:29:47,406] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2024-03-11 22:29:47,407] {logging_mixin.py:115} INFO - [2024-03-11 22:29:47,407] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:29:47,422] {processor.py:651} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-03-11 22:29:47,463] {logging_mixin.py:115} INFO - [2024-03-11 22:29:47,462] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:47,501] {logging_mixin.py:115} INFO - [2024-03-11 22:29:47,501] {dag.py:2927} INFO - Setting next_dagrun for example_weekday_branch_operator to 2024-03-11T00:00:00+00:00, run_after=2024-03-12T00:00:00+00:00
+[2024-03-11 22:29:47,525] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.130 seconds

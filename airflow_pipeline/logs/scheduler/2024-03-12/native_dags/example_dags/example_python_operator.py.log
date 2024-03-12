@@ -1,0 +1,44 @@
+[2024-03-11 22:27:12,506] {processor.py:153} INFO - Started process (PID=16860) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:27:12,508] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-11 22:27:12,509] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,509] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:27:12,592] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,591] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-03-11 22:27:12,593] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:27:12,725] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,724] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-03-11 22:27:12,745] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,744] {manager.py:508} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-03-11 22:27:12,772] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,771] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-03-11 22:27:12,772] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,772] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:12,785] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,785] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2024-03-11 22:27:12,801] {logging_mixin.py:115} INFO - [2024-03-11 22:27:12,800] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-11 22:27:12,840] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.340 seconds
+[2024-03-11 22:27:59,063] {processor.py:153} INFO - Started process (PID=17414) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:27:59,066] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-11 22:27:59,068] {logging_mixin.py:115} INFO - [2024-03-11 22:27:59,067] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:27:59,314] {logging_mixin.py:115} INFO - [2024-03-11 22:27:59,314] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-03-11 22:27:59,315] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:27:59,383] {logging_mixin.py:115} INFO - [2024-03-11 22:27:59,383] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:59,430] {logging_mixin.py:115} INFO - [2024-03-11 22:27:59,430] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-11 22:27:59,469] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.434 seconds
+[2024-03-11 22:28:42,282] {processor.py:153} INFO - Started process (PID=17773) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:28:42,285] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-11 22:28:42,286] {logging_mixin.py:115} INFO - [2024-03-11 22:28:42,286] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:28:42,436] {logging_mixin.py:115} INFO - [2024-03-11 22:28:42,435] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-03-11 22:28:42,437] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:28:42,510] {logging_mixin.py:115} INFO - [2024-03-11 22:28:42,509] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:28:42,567] {logging_mixin.py:115} INFO - [2024-03-11 22:28:42,566] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-11 22:28:42,639] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.369 seconds
+[2024-03-11 22:29:24,755] {processor.py:153} INFO - Started process (PID=18083) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:29:24,757] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-11 22:29:24,758] {logging_mixin.py:115} INFO - [2024-03-11 22:29:24,758] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:29:24,836] {logging_mixin.py:115} INFO - [2024-03-11 22:29:24,836] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-03-11 22:29:24,837] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:29:24,878] {logging_mixin.py:115} INFO - [2024-03-11 22:29:24,878] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:24,969] {logging_mixin.py:115} INFO - [2024-03-11 22:29:24,969] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-11 22:29:25,000] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.250 seconds
+[2024-03-11 22:30:01,714] {processor.py:153} INFO - Started process (PID=18407) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:30:01,716] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-11 22:30:01,717] {logging_mixin.py:115} INFO - [2024-03-11 22:30:01,717] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:30:01,774] {logging_mixin.py:115} INFO - [2024-03-11 22:30:01,774] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-03-11 22:30:01,775] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-11 22:30:01,800] {logging_mixin.py:115} INFO - [2024-03-11 22:30:01,800] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:30:01,826] {logging_mixin.py:115} INFO - [2024-03-11 22:30:01,826] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-11 22:30:01,850] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds

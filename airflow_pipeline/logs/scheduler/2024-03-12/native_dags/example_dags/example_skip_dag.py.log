@@ -1,0 +1,39 @@
+[2024-03-11 22:27:08,950] {processor.py:153} INFO - Started process (PID=16837) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:27:08,951] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-11 22:27:08,952] {logging_mixin.py:115} INFO - [2024-03-11 22:27:08,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:27:08,960] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:27:09,115] {logging_mixin.py:115} INFO - [2024-03-11 22:27:09,115] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-03-11 22:27:09,137] {logging_mixin.py:115} INFO - [2024-03-11 22:27:09,137] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-03-11 22:27:09,154] {logging_mixin.py:115} INFO - [2024-03-11 22:27:09,153] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-03-11 22:27:09,155] {logging_mixin.py:115} INFO - [2024-03-11 22:27:09,155] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:09,172] {logging_mixin.py:115} INFO - [2024-03-11 22:27:09,171] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2024-03-11 22:27:09,188] {logging_mixin.py:115} INFO - [2024-03-11 22:27:09,188] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-03-11T01:27:09.188105+00:00, run_after=2024-03-12T01:27:09.188105+00:00
+[2024-03-11 22:27:09,217] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.272 seconds
+[2024-03-11 22:27:55,934] {processor.py:153} INFO - Started process (PID=17393) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:27:55,936] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-11 22:27:55,937] {logging_mixin.py:115} INFO - [2024-03-11 22:27:55,937] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:27:55,946] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:27:55,976] {logging_mixin.py:115} INFO - [2024-03-11 22:27:55,975] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:27:56,004] {logging_mixin.py:115} INFO - [2024-03-11 22:27:56,003] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-03-11T01:27:56.003460+00:00, run_after=2024-03-12T01:27:56.003460+00:00
+[2024-03-11 22:27:56,039] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.112 seconds
+[2024-03-11 22:28:38,125] {processor.py:153} INFO - Started process (PID=17733) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:28:38,127] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-11 22:28:38,128] {logging_mixin.py:115} INFO - [2024-03-11 22:28:38,128] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:28:38,140] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:28:38,173] {logging_mixin.py:115} INFO - [2024-03-11 22:28:38,173] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:28:38,213] {logging_mixin.py:115} INFO - [2024-03-11 22:28:38,213] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-03-11T01:28:38.212340+00:00, run_after=2024-03-12T01:28:38.212340+00:00
+[2024-03-11 22:28:38,244] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.123 seconds
+[2024-03-11 22:29:18,275] {processor.py:153} INFO - Started process (PID=18042) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:29:18,278] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-11 22:29:18,279] {logging_mixin.py:115} INFO - [2024-03-11 22:29:18,279] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:29:18,314] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:29:18,439] {logging_mixin.py:115} INFO - [2024-03-11 22:29:18,438] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:18,594] {logging_mixin.py:115} INFO - [2024-03-11 22:29:18,584] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-03-11T01:29:18.583281+00:00, run_after=2024-03-12T01:29:18.583281+00:00
+[2024-03-11 22:29:18,666] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.404 seconds
+[2024-03-11 22:29:57,691] {processor.py:153} INFO - Started process (PID=18366) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:29:57,692] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-11 22:29:57,693] {logging_mixin.py:115} INFO - [2024-03-11 22:29:57,693] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:29:57,702] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-11 22:29:57,745] {logging_mixin.py:115} INFO - [2024-03-11 22:29:57,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:29:57,777] {logging_mixin.py:115} INFO - [2024-03-11 22:29:57,777] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-03-11T01:29:57.777305+00:00, run_after=2024-03-12T01:29:57.777305+00:00
+[2024-03-11 22:29:57,802] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.116 seconds
