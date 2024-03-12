@@ -1,0 +1,272 @@
+[2024-03-12 11:01:49,012] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: labdados_extract.labdados_datascience manual__2024-03-12T14:01:46.831140+00:00 [queued]>
+[2024-03-12 11:01:49,024] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: labdados_extract.labdados_datascience manual__2024-03-12T14:01:46.831140+00:00 [queued]>
+[2024-03-12 11:01:49,024] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-12 11:01:49,025] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-03-12 11:01:49,025] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-12 11:01:49,048] {taskinstance.py:1377} INFO - Executing <Task(labdadosOperator): labdados_datascience> on 2024-03-12 14:01:46.831140+00:00
+[2024-03-12 11:01:49,050] {standard_task_runner.py:52} INFO - Started process 49438 to run task
+[2024-03-12 11:01:49,058] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'labdados_extract', 'labdados_datascience', 'manual__2024-03-12T14:01:46.831140+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/labdados_dag.py', '--cfg-path', '/tmp/tmpu70v69b6', '--error-file', '/tmp/tmph7cvvyky']
+[2024-03-12 11:01:49,059] {standard_task_runner.py:80} INFO - Job 5: Subtask labdados_datascience
+[2024-03-12 11:01:49,120] {task_command.py:370} INFO - Running <TaskInstance: labdados_extract.labdados_datascience manual__2024-03-12T14:01:46.831140+00:00 [running]> on host JuniorLafuente.
+[2024-03-12 11:01:49,191] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=labdados_extract
+AIRFLOW_CTX_TASK_ID=labdados_datascience
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-12T14:01:46.831140+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-03-12T14:01:46.831140+00:00
+[2024-03-12 11:01:49,198] {base.py:68} INFO - Using connection ID 'labdados' for task execution.
+[2024-03-12 11:01:49,201] {labdados_hook.py:39} INFO - URL: https://labdados.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2024-03-11T00:00:00.00Z&end_time=2024-03-12T11:01:48.00Z
+[2024-03-12 11:01:50,955] {logging_mixin.py:115} INFO - {
+    "data": [
+        {
+            "author_id": "66",
+            "conversation_id": "9",
+            "created_at": "2024-03-12T08:49:52.652182+0000",
+            "edit_history_tweet_ids": [
+                66
+            ],
+            "id": "68",
+            "in_reply_to_user_id": "19",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 39,
+                "quote_count": 60,
+                "reply_count": 18,
+                "retweet_count": 63
+            },
+            "text": "Outro tweet fict\u00edcio relacionado a datascience"
+        },
+        {
+            "author_id": "25",
+            "conversation_id": "36",
+            "created_at": "2024-03-11T06:34:49.328535+0000",
+            "edit_history_tweet_ids": [
+                7
+            ],
+            "id": "8",
+            "in_reply_to_user_id": "63",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 81,
+                "quote_count": 10,
+                "reply_count": 94,
+                "retweet_count": 100
+            },
+            "text": "Tweet fict\u00edcio criado usando intelig\u00eancia artificial para falar sobre datascience"
+        },
+        {
+            "author_id": "12",
+            "conversation_id": "51",
+            "created_at": "2024-03-12T09:08:00.586869+0000",
+            "edit_history_tweet_ids": [
+                43
+            ],
+            "id": "70",
+            "in_reply_to_user_id": "37",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 56,
+                "quote_count": 15,
+                "reply_count": 41,
+                "retweet_count": 65
+            },
+            "text": "Um terceiro tweet fict\u00edcio sobre datascience"
+        },
+        {
+            "author_id": "14",
+            "conversation_id": "78",
+            "created_at": "2024-03-12T04:45:23.322330+0000",
+            "edit_history_tweet_ids": [
+                96
+            ],
+            "id": "30",
+            "in_reply_to_user_id": "82",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 48,
+                "quote_count": 79,
+                "reply_count": 87,
+                "retweet_count": 95
+            },
+            "text": "Outro tweet fict\u00edcio relacionado a datascience"
+        },
+        {
+            "author_id": "91",
+            "conversation_id": "8",
+            "created_at": "2024-03-12T02:07:26.218641+0000",
+            "edit_history_tweet_ids": [
+                68
+            ],
+            "id": "24",
+            "in_reply_to_user_id": "25",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 33,
+                "quote_count": 64,
+                "reply_count": 55,
+                "retweet_count": 31
+            },
+            "text": "Outro tweet fict\u00edcio relacionado a datascience"
+        },
+        {
+            "author_id": "75",
+            "conversation_id": "80",
+            "created_at": "2024-03-11T11:10:20.657284+0000",
+            "edit_history_tweet_ids": [
+                83
+            ],
+            "id": "19",
+            "in_reply_to_user_id": "74",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 62,
+                "quote_count": 84,
+                "reply_count": 60,
+                "retweet_count": 66
+            },
+            "text": "Este \u00e9 um tweet fict\u00edcio sobre datascience"
+        },
+        {
+            "author_id": "58",
+            "conversation_id": "94",
+            "created_at": "2024-03-12T06:36:38.247907+0000",
+            "edit_history_tweet_ids": [
+                29
+            ],
+            "id": "95",
+            "in_reply_to_user_id": "3",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 63,
+                "quote_count": 73,
+                "reply_count": 51,
+                "retweet_count": 84
+            },
+            "text": "Tweet fict\u00edcio gerado automaticamente sobre datascience"
+        },
+        {
+            "author_id": "60",
+            "conversation_id": "49",
+            "created_at": "2024-03-11T18:03:08.012586+0000",
+            "edit_history_tweet_ids": [
+                17
+            ],
+            "id": "63",
+            "in_reply_to_user_id": "59",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 65,
+                "quote_count": 77,
+                "reply_count": 85,
+                "retweet_count": 80
+            },
+            "text": "Tweet fict\u00edcio gerado automaticamente sobre datascience"
+        },
+        {
+            "author_id": "19",
+            "conversation_id": "93",
+            "created_at": "2024-03-12T10:14:01.872007+0000",
+            "edit_history_tweet_ids": [
+                15
+            ],
+            "id": "47",
+            "in_reply_to_user_id": "58",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 71,
+                "quote_count": 86,
+                "reply_count": 15,
+                "retweet_count": 21
+            },
+            "text": "Um terceiro tweet fict\u00edcio sobre datascience"
+        },
+        {
+            "author_id": "34",
+            "conversation_id": "88",
+            "created_at": "2024-03-11T02:36:06.955146+0000",
+            "edit_history_tweet_ids": [
+                91
+            ],
+            "id": "36",
+            "in_reply_to_user_id": "42",
+            "lang": "en",
+            "public_metrics": {
+                "like_count": 45,
+                "quote_count": 93,
+                "reply_count": 64,
+                "retweet_count": 12
+            },
+            "text": "Outro tweet fict\u00edcio relacionado a datascience"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "created_at": "2024-03-11T16:30:56.183549+0000",
+                "id": "57",
+                "name": "User 1",
+                "username": "user1"
+            },
+            {
+                "created_at": "2024-03-11T23:18:30.455319+0000",
+                "id": "86",
+                "name": "User 2",
+                "username": "user2"
+            },
+            {
+                "created_at": "2024-03-11T08:32:10.311732+0000",
+                "id": "5",
+                "name": "User 3",
+                "username": "user3"
+            },
+            {
+                "created_at": "2024-03-11T17:14:41.527409+0000",
+                "id": "39",
+                "name": "User 4",
+                "username": "user4"
+            },
+            {
+                "created_at": "2024-03-11T13:18:09.389496+0000",
+                "id": "84",
+                "name": "User 5",
+                "username": "user5"
+            },
+            {
+                "created_at": "2024-03-12T04:48:15.992612+0000",
+                "id": "21",
+                "name": "User 6",
+                "username": "user6"
+            },
+            {
+                "created_at": "2024-03-11T23:51:41.335439+0000",
+                "id": "25",
+                "name": "User 7",
+                "username": "user7"
+            },
+            {
+                "created_at": "2024-03-12T07:01:42.922667+0000",
+                "id": "77",
+                "name": "User 8",
+                "username": "user8"
+            },
+            {
+                "created_at": "2024-03-11T15:23:25.858650+0000",
+                "id": "59",
+                "name": "User 9",
+                "username": "user9"
+            },
+            {
+                "created_at": "2024-03-12T10:07:04.086320+0000",
+                "id": "9",
+                "name": "User 10",
+                "username": "user10"
+            }
+        ]
+    }
+}
+[2024-03-12 11:01:50,976] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=labdados_extract, task_id=labdados_datascience, execution_date=20240312T140146, start_date=20240312T140149, end_date=20240312T140150
+[2024-03-12 11:01:51,044] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-03-12 11:01:51,075] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

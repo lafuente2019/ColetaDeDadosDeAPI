@@ -1,0 +1,95 @@
+[2024-03-12 10:59:40,950] {processor.py:153} INFO - Started process (PID=47751) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 10:59:40,951] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 10:59:40,953] {logging_mixin.py:115} INFO - [2024-03-12 10:59:40,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 10:59:40,990] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 10:59:41,158] {logging_mixin.py:115} INFO - [2024-03-12 10:59:41,158] {manager.py:508} INFO - Created Permission View: can delete on DAG:labdados_extract
+[2024-03-12 10:59:41,185] {logging_mixin.py:115} INFO - [2024-03-12 10:59:41,185] {manager.py:508} INFO - Created Permission View: can read on DAG:labdados_extract
+[2024-03-12 10:59:41,201] {logging_mixin.py:115} INFO - [2024-03-12 10:59:41,201] {manager.py:508} INFO - Created Permission View: can edit on DAG:labdados_extract
+[2024-03-12 10:59:41,202] {logging_mixin.py:115} INFO - [2024-03-12 10:59:41,202] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 10:59:41,221] {logging_mixin.py:115} INFO - [2024-03-12 10:59:41,221] {dag.py:2398} INFO - Creating ORM DAG for labdados_extract
+[2024-03-12 10:59:41,239] {logging_mixin.py:115} INFO - [2024-03-12 10:59:41,239] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T10:59:40.982292+00:00, run_after=2024-03-13T10:59:40.982292+00:00
+[2024-03-12 10:59:41,267] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.323 seconds
+[2024-03-12 11:00:12,289] {processor.py:153} INFO - Started process (PID=48216) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:00:12,291] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:00:12,291] {logging_mixin.py:115} INFO - [2024-03-12 11:00:12,291] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:00:12,306] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:00:12,383] {logging_mixin.py:115} INFO - [2024-03-12 11:00:12,383] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:00:12,408] {logging_mixin.py:115} INFO - [2024-03-12 11:00:12,408] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:00:12.301938+00:00, run_after=2024-03-13T11:00:12.301938+00:00
+[2024-03-12 11:00:12,429] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.155 seconds
+[2024-03-12 11:00:42,733] {processor.py:153} INFO - Started process (PID=48530) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:00:42,735] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:00:42,736] {logging_mixin.py:115} INFO - [2024-03-12 11:00:42,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:00:42,746] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:00:42,823] {logging_mixin.py:115} INFO - [2024-03-12 11:00:42,823] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:00:42,849] {logging_mixin.py:115} INFO - [2024-03-12 11:00:42,848] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:00:42.743735+00:00, run_after=2024-03-13T11:00:42.743735+00:00
+[2024-03-12 11:00:42,869] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.141 seconds
+[2024-03-12 11:01:13,151] {processor.py:153} INFO - Started process (PID=48903) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:01:13,162] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:01:13,163] {logging_mixin.py:115} INFO - [2024-03-12 11:01:13,163] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:01:13,182] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:01:13,286] {logging_mixin.py:115} INFO - [2024-03-12 11:01:13,285] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:01:13,319] {logging_mixin.py:115} INFO - [2024-03-12 11:01:13,319] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:01:13.177678+00:00, run_after=2024-03-13T11:01:13.177678+00:00
+[2024-03-12 11:01:13,347] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.208 seconds
+[2024-03-12 11:01:43,522] {processor.py:153} INFO - Started process (PID=49349) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:01:43,523] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:01:43,524] {logging_mixin.py:115} INFO - [2024-03-12 11:01:43,524] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:01:43,536] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:01:43,616] {logging_mixin.py:115} INFO - [2024-03-12 11:01:43,616] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:01:43,645] {logging_mixin.py:115} INFO - [2024-03-12 11:01:43,645] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:01:43.533184+00:00, run_after=2024-03-13T11:01:43.533184+00:00
+[2024-03-12 11:01:43,672] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.155 seconds
+[2024-03-12 11:02:14,771] {processor.py:153} INFO - Started process (PID=49794) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:02:14,773] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:02:14,774] {logging_mixin.py:115} INFO - [2024-03-12 11:02:14,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:02:14,785] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:02:14,937] {logging_mixin.py:115} INFO - [2024-03-12 11:02:14,937] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:02:14,967] {logging_mixin.py:115} INFO - [2024-03-12 11:02:14,967] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:02:14.783161+00:00, run_after=2024-03-13T11:02:14.783161+00:00
+[2024-03-12 11:02:14,987] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.221 seconds
+[2024-03-12 11:02:45,146] {processor.py:153} INFO - Started process (PID=49971) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:02:45,149] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:02:45,151] {logging_mixin.py:115} INFO - [2024-03-12 11:02:45,151] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:02:45,175] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:02:45,261] {logging_mixin.py:115} INFO - [2024-03-12 11:02:45,261] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:02:45,300] {logging_mixin.py:115} INFO - [2024-03-12 11:02:45,299] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:02:45.172155+00:00, run_after=2024-03-13T11:02:45.172155+00:00
+[2024-03-12 11:02:45,328] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.192 seconds
+[2024-03-12 11:03:15,596] {processor.py:153} INFO - Started process (PID=50156) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:03:15,598] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:03:15,600] {logging_mixin.py:115} INFO - [2024-03-12 11:03:15,600] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:03:15,617] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:03:15,709] {logging_mixin.py:115} INFO - [2024-03-12 11:03:15,708] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:03:15,742] {logging_mixin.py:115} INFO - [2024-03-12 11:03:15,742] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:03:15.613141+00:00, run_after=2024-03-13T11:03:15.613141+00:00
+[2024-03-12 11:03:15,771] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.183 seconds
+[2024-03-12 11:03:46,047] {processor.py:153} INFO - Started process (PID=50379) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:03:46,049] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:03:46,050] {logging_mixin.py:115} INFO - [2024-03-12 11:03:46,050] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:03:46,066] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:03:46,141] {logging_mixin.py:115} INFO - [2024-03-12 11:03:46,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:03:46,168] {logging_mixin.py:115} INFO - [2024-03-12 11:03:46,167] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:03:46.062808+00:00, run_after=2024-03-13T11:03:46.062808+00:00
+[2024-03-12 11:03:46,190] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.148 seconds
+[2024-03-12 11:04:16,410] {processor.py:153} INFO - Started process (PID=50810) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:04:16,412] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:04:16,414] {logging_mixin.py:115} INFO - [2024-03-12 11:04:16,413] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:04:16,427] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:04:16,502] {logging_mixin.py:115} INFO - [2024-03-12 11:04:16,502] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:04:16,531] {logging_mixin.py:115} INFO - [2024-03-12 11:04:16,531] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:04:16.424063+00:00, run_after=2024-03-13T11:04:16.424063+00:00
+[2024-03-12 11:04:16,553] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.148 seconds
+[2024-03-12 11:04:46,763] {processor.py:153} INFO - Started process (PID=51155) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:04:46,765] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:04:46,767] {logging_mixin.py:115} INFO - [2024-03-12 11:04:46,767] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:04:46,791] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:04:46,867] {logging_mixin.py:115} INFO - [2024-03-12 11:04:46,867] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:04:46,900] {logging_mixin.py:115} INFO - [2024-03-12 11:04:46,900] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:04:46.784940+00:00, run_after=2024-03-13T11:04:46.784940+00:00
+[2024-03-12 11:04:46,932] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.181 seconds
+[2024-03-12 11:05:17,394] {processor.py:153} INFO - Started process (PID=51474) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:05:17,395] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:05:17,396] {logging_mixin.py:115} INFO - [2024-03-12 11:05:17,396] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:05:17,408] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:05:17,477] {logging_mixin.py:115} INFO - [2024-03-12 11:05:17,477] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:05:17,504] {logging_mixin.py:115} INFO - [2024-03-12 11:05:17,504] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:05:17.405165+00:00, run_after=2024-03-13T11:05:17.405165+00:00
+[2024-03-12 11:05:17,525] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.136 seconds
+[2024-03-12 11:05:47,807] {processor.py:153} INFO - Started process (PID=51791) to work on /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:05:47,809] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py for tasks to queue
+[2024-03-12 11:05:47,811] {logging_mixin.py:115} INFO - [2024-03-12 11:05:47,810] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:05:47,828] {processor.py:651} INFO - DAG(s) dict_keys(['labdados_extract']) retrieved from /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py
+[2024-03-12 11:05:47,975] {logging_mixin.py:115} INFO - [2024-03-12 11:05:47,975] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-12 11:05:48,007] {logging_mixin.py:115} INFO - [2024-03-12 11:05:48,007] {dag.py:2927} INFO - Setting next_dagrun for labdados_extract to 2024-03-12T11:05:47.823858+00:00, run_after=2024-03-13T11:05:47.823858+00:00
+[2024-03-12 11:05:48,032] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py took 0.238 seconds

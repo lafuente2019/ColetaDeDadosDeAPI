@@ -12034,3 +12034,114 @@ File Path                                                                       
 /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T03:54:19
 ================================================================================
 [2024-03-12 03:55:26,743] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-12 10:59:40,747] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2024-03-12 10:59:40,749] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2024-03-12 10:59:40,749] {manager.py:482} INFO - Checking for new files in /home/lafuente/airflowAPI/airflow_pipeline/dags every 300 seconds
+[2024-03-12 10:59:40,749] {manager.py:690} INFO - Searching for files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-12 10:59:40,752] {manager.py:693} INFO - There are 1 files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-12 10:59:41,338] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.41s           2024-03-12T13:59:41
+================================================================================
+[2024-03-12 11:00:12,463] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:00:12
+================================================================================
+[2024-03-12 11:00:42,926] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:00:42
+================================================================================
+[2024-03-12 11:01:13,424] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.31s           2024-03-12T14:01:13
+================================================================================
+[2024-03-12 11:01:43,715] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:01:43
+================================================================================
+[2024-03-12 11:02:15,064] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.31s           2024-03-12T14:02:15
+================================================================================
+[2024-03-12 11:02:45,428] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.31s           2024-03-12T14:02:45
+================================================================================
+[2024-03-12 11:03:15,785] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:03:15
+================================================================================
+[2024-03-12 11:03:46,233] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:03:46
+================================================================================
+[2024-03-12 11:04:16,603] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:04:16
+================================================================================
+[2024-03-12 11:04:40,803] {manager.py:690} INFO - Searching for files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-12 11:04:40,805] {manager.py:693} INFO - There are 1 files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-12 11:04:46,941] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.22s           2024-03-12T14:04:46
+================================================================================
+[2024-03-12 11:05:17,580] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.21s           2024-03-12T14:05:17
+================================================================================
+[2024-03-12 11:05:48,085] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/airflow_pipeline/dags/labdados_dag.py                           1           0  0.31s           2024-03-12T14:05:48
+================================================================================
