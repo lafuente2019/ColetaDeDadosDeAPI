@@ -16,7 +16,7 @@ with DAG(dag_id = "labdados_extract", start_date=datetime.now()) as dag:
     to = labdadosOperator(file_path=join("datalake/labdados_datascience",
         "extract_data={{ ds }}",
         f"datascience_{{ ds_nodash }}.json"),
-        query=query, start_time=start_time, end_time=end_time, task_id="test_run")
+        query=query, start_time=start_time, end_time=end_time, task_id="labdados_datascience")
     
 
 
