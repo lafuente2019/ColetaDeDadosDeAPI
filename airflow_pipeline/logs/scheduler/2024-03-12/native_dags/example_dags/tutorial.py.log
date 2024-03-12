@@ -37,3 +37,101 @@
 [2024-03-11 22:29:43,643] {logging_mixin.py:115} INFO - [2024-03-11 22:29:43,643] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-03-11 22:29:43,743] {logging_mixin.py:115} INFO - [2024-03-11 22:29:43,743] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:29:43.742345+00:00, run_after=2024-03-12T01:29:43.742345+00:00
 [2024-03-11 22:29:43,789] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.277 seconds
+[2024-03-11 22:30:16,650] {processor.py:153} INFO - Started process (PID=18575) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:30:16,651] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:30:16,652] {logging_mixin.py:115} INFO - [2024-03-11 22:30:16,652] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:30:16,663] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:30:16,694] {logging_mixin.py:115} INFO - [2024-03-11 22:30:16,694] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:30:16,723] {logging_mixin.py:115} INFO - [2024-03-11 22:30:16,723] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:30:16.723182+00:00, run_after=2024-03-12T01:30:16.723182+00:00
+[2024-03-11 22:30:16,757] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2024-03-11 22:30:56,202] {processor.py:153} INFO - Started process (PID=19037) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:30:56,204] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:30:56,205] {logging_mixin.py:115} INFO - [2024-03-11 22:30:56,205] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:30:56,219] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:30:56,256] {logging_mixin.py:115} INFO - [2024-03-11 22:30:56,256] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:30:56,286] {logging_mixin.py:115} INFO - [2024-03-11 22:30:56,285] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:30:56.285567+00:00, run_after=2024-03-12T01:30:56.285567+00:00
+[2024-03-11 22:30:56,312] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2024-03-11 22:31:37,540] {processor.py:153} INFO - Started process (PID=19444) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:31:37,542] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:31:37,543] {logging_mixin.py:115} INFO - [2024-03-11 22:31:37,543] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:31:37,555] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:31:37,597] {logging_mixin.py:115} INFO - [2024-03-11 22:31:37,596] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:31:37,647] {logging_mixin.py:115} INFO - [2024-03-11 22:31:37,647] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:31:37.646916+00:00, run_after=2024-03-12T01:31:37.646916+00:00
+[2024-03-11 22:31:37,677] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.142 seconds
+[2024-03-11 22:32:12,147] {processor.py:153} INFO - Started process (PID=19711) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:32:12,150] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:32:12,151] {logging_mixin.py:115} INFO - [2024-03-11 22:32:12,151] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:32:12,173] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:32:12,231] {logging_mixin.py:115} INFO - [2024-03-11 22:32:12,231] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:32:12,285] {logging_mixin.py:115} INFO - [2024-03-11 22:32:12,284] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:32:12.284106+00:00, run_after=2024-03-12T01:32:12.284106+00:00
+[2024-03-11 22:32:12,332] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.195 seconds
+[2024-03-11 22:32:44,074] {processor.py:153} INFO - Started process (PID=19910) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:32:44,075] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:32:44,076] {logging_mixin.py:115} INFO - [2024-03-11 22:32:44,076] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:32:44,087] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:32:44,115] {logging_mixin.py:115} INFO - [2024-03-11 22:32:44,115] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:32:44,145] {logging_mixin.py:115} INFO - [2024-03-11 22:32:44,145] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:32:44.144939+00:00, run_after=2024-03-12T01:32:44.144939+00:00
+[2024-03-11 22:32:44,172] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.103 seconds
+[2024-03-11 22:33:22,363] {processor.py:153} INFO - Started process (PID=20149) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:33:22,365] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:33:22,366] {logging_mixin.py:115} INFO - [2024-03-11 22:33:22,366] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:33:22,375] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:33:22,402] {logging_mixin.py:115} INFO - [2024-03-11 22:33:22,401] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:33:22,430] {logging_mixin.py:115} INFO - [2024-03-11 22:33:22,429] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:33:22.429383+00:00, run_after=2024-03-12T01:33:22.429383+00:00
+[2024-03-11 22:33:22,455] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.097 seconds
+[2024-03-11 22:33:59,796] {processor.py:153} INFO - Started process (PID=20378) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:33:59,800] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:33:59,803] {logging_mixin.py:115} INFO - [2024-03-11 22:33:59,802] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:33:59,823] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:33:59,876] {logging_mixin.py:115} INFO - [2024-03-11 22:33:59,876] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:33:59,921] {logging_mixin.py:115} INFO - [2024-03-11 22:33:59,921] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:33:59.920347+00:00, run_after=2024-03-12T01:33:59.920347+00:00
+[2024-03-11 22:33:59,946] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.161 seconds
+[2024-03-11 22:34:40,054] {processor.py:153} INFO - Started process (PID=20718) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:34:40,058] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:34:40,062] {logging_mixin.py:115} INFO - [2024-03-11 22:34:40,061] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:34:40,072] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:34:40,099] {logging_mixin.py:115} INFO - [2024-03-11 22:34:40,099] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:34:40,126] {logging_mixin.py:115} INFO - [2024-03-11 22:34:40,126] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:34:40.126029+00:00, run_after=2024-03-12T01:34:40.126029+00:00
+[2024-03-11 22:34:40,150] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.110 seconds
+[2024-03-11 22:35:22,466] {processor.py:153} INFO - Started process (PID=21014) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:35:22,467] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:35:22,468] {logging_mixin.py:115} INFO - [2024-03-11 22:35:22,468] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:35:22,478] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:35:22,504] {logging_mixin.py:115} INFO - [2024-03-11 22:35:22,504] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:35:22,533] {logging_mixin.py:115} INFO - [2024-03-11 22:35:22,533] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:35:22.533051+00:00, run_after=2024-03-12T01:35:22.533051+00:00
+[2024-03-11 22:35:22,559] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.098 seconds
+[2024-03-11 22:35:58,399] {processor.py:153} INFO - Started process (PID=21385) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:35:58,400] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:35:58,402] {logging_mixin.py:115} INFO - [2024-03-11 22:35:58,402] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:35:58,421] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:35:58,456] {logging_mixin.py:115} INFO - [2024-03-11 22:35:58,456] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:35:58,487] {logging_mixin.py:115} INFO - [2024-03-11 22:35:58,487] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:35:58.486755+00:00, run_after=2024-03-12T01:35:58.486755+00:00
+[2024-03-11 22:35:58,525] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.131 seconds
+[2024-03-11 22:36:33,808] {processor.py:153} INFO - Started process (PID=21665) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:36:33,810] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:36:33,811] {logging_mixin.py:115} INFO - [2024-03-11 22:36:33,810] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:36:33,824] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:36:33,861] {logging_mixin.py:115} INFO - [2024-03-11 22:36:33,861] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:36:33,911] {logging_mixin.py:115} INFO - [2024-03-11 22:36:33,911] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:36:33.910418+00:00, run_after=2024-03-12T01:36:33.910418+00:00
+[2024-03-11 22:36:33,936] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.134 seconds
+[2024-03-11 22:37:16,984] {processor.py:153} INFO - Started process (PID=22301) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:37:16,986] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:37:16,988] {logging_mixin.py:115} INFO - [2024-03-11 22:37:16,987] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:37:17,002] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:37:17,041] {logging_mixin.py:115} INFO - [2024-03-11 22:37:17,041] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:37:17,087] {logging_mixin.py:115} INFO - [2024-03-11 22:37:17,086] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:37:17.086236+00:00, run_after=2024-03-12T01:37:17.086236+00:00
+[2024-03-11 22:37:17,117] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.144 seconds
+[2024-03-11 22:37:55,464] {processor.py:153} INFO - Started process (PID=22565) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:37:55,465] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:37:55,466] {logging_mixin.py:115} INFO - [2024-03-11 22:37:55,466] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:37:55,476] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:37:55,503] {logging_mixin.py:115} INFO - [2024-03-11 22:37:55,503] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:37:55,530] {logging_mixin.py:115} INFO - [2024-03-11 22:37:55,530] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:37:55.529798+00:00, run_after=2024-03-12T01:37:55.529798+00:00
+[2024-03-11 22:37:55,555] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.105 seconds
+[2024-03-11 22:38:30,615] {processor.py:153} INFO - Started process (PID=22902) to work on /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:38:30,620] {processor.py:641} INFO - Processing file /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-03-11 22:38:30,622] {logging_mixin.py:115} INFO - [2024-03-11 22:38:30,622] {dagbag.py:507} INFO - Filling up the DagBag from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:38:30,631] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-03-11 22:38:30,658] {logging_mixin.py:115} INFO - [2024-03-11 22:38:30,658] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-11 22:38:30,685] {logging_mixin.py:115} INFO - [2024-03-11 22:38:30,685] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2024-03-11T01:38:30.684930+00:00, run_after=2024-03-12T01:38:30.684930+00:00
+[2024-03-11 22:38:30,708] {processor.py:161} INFO - Processing /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.112 seconds

@@ -290,3 +290,704 @@ File Path                                                                       
 /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:29:10
 /home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:29:14
 ================================================================================
+[2024-03-11 22:30:14,335] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:29:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.12s           2024-03-12T01:30:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:30:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2024-03-12T01:29:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:30:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:29:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:30:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:30:12
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.21s           2024-03-12T01:29:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:30:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2024-03-12T01:30:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.22s           2024-03-12T01:29:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:29:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:30:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:29:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:29:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:29:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.33s           2024-03-12T01:29:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:29:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:29:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.20s           2024-03-12T01:29:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:29:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:29:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:30:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:30:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:30:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:29:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:30:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:29:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:30:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:29:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.31s           2024-03-12T01:30:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:29:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.20s           2024-03-12T01:29:54
+================================================================================
+[2024-03-11 22:30:44,864] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:30:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.12s           2024-03-12T01:30:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:30:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:30:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.34s           2024-03-12T01:30:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:30:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:30:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:30:12
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.31s           2024-03-12T01:30:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:30:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2024-03-12T01:30:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:30:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.43s           2024-03-12T01:30:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.31s           2024-03-12T01:30:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:30:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.31s           2024-03-12T01:30:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.31s           2024-03-12T01:30:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.20s           2024-03-12T01:30:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.52s           2024-03-12T01:30:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.31s           2024-03-12T01:30:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:30:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:30:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:30:26
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:30:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:30:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:30:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:30:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:30:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:30:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:30:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:30:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.31s           2024-03-12T01:30:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:30:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.70s           2024-03-12T01:30:35
+================================================================================
+[2024-03-11 22:31:16,062] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.31s           2024-03-12T01:30:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.31s           2024-03-12T01:30:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:30:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.21s           2024-03-12T01:31:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:31:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.31s           2024-03-12T01:31:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:30:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:30:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.82s           2024-03-12T01:31:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:30:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.31s           2024-03-12T01:31:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.20s           2024-03-12T01:31:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.22s           2024-03-12T01:31:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.31s           2024-03-12T01:30:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.31s           2024-03-12T01:31:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.31s           2024-03-12T01:30:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.31s           2024-03-12T01:30:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:30:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.52s           2024-03-12T01:30:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.31s           2024-03-12T01:31:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:30:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.31s           2024-03-12T01:31:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.96s           2024-03-12T01:31:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:30:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:30:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.31s           2024-03-12T01:30:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:30:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.41s           2024-03-12T01:30:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:30:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.31s           2024-03-12T01:30:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.20s           2024-03-12T01:30:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.31s           2024-03-12T01:30:53
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:30:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  2.18s           2024-03-12T01:31:14
+================================================================================
+[2024-03-11 22:31:40,053] {manager.py:690} INFO - Searching for files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-11 22:31:40,077] {manager.py:693} INFO - There are 34 files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-11 22:31:46,557] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.31s           2024-03-12T01:31:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:31:31
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:31:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.21s           2024-03-12T01:31:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:31:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.31s           2024-03-12T01:31:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.31s           2024-03-12T01:31:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.20s           2024-03-12T01:31:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.82s           2024-03-12T01:31:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.41s           2024-03-12T01:31:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:31:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.41s           2024-03-12T01:31:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.22s           2024-03-12T01:31:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.31s           2024-03-12T01:31:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:31:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:31:24
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:31:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:31:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:31:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:31:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:31:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.31s           2024-03-12T01:31:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.96s           2024-03-12T01:31:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:31:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.31s           2024-03-12T01:31:31
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:31:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.31s           2024-03-12T01:31:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.20s           2024-03-12T01:31:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.31s           2024-03-12T01:31:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:31:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:31:39
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.31s           2024-03-12T01:31:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.41s           2024-03-12T01:31:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  2.18s           2024-03-12T01:31:14
+================================================================================
+[2024-03-11 22:32:17,216] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:32:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2024-03-12T01:32:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:31:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:31:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2024-03-12T01:31:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.31s           2024-03-12T01:31:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.31s           2024-03-12T01:31:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.20s           2024-03-12T01:31:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.31s           2024-03-12T01:31:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.51s           2024-03-12T01:32:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:31:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.41s           2024-03-12T01:31:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:31:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.41s           2024-03-12T01:32:02
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:31:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.31s           2024-03-12T01:32:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:32:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.31s           2024-03-12T01:32:12
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.31s           2024-03-12T01:32:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:31:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:32:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:31:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.32s           2024-03-12T01:31:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.31s           2024-03-12T01:32:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:32:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:31:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:31:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.20s           2024-03-12T01:31:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.31s           2024-03-12T01:31:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:31:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.32s           2024-03-12T01:32:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.41s           2024-03-12T01:32:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.31s           2024-03-12T01:32:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:31:53
+================================================================================
+[2024-03-11 22:32:47,525] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.11s           2024-03-12T01:32:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2024-03-12T01:32:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:32:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:32:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.12s           2024-03-12T01:32:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:32:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.20s           2024-03-12T01:32:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:32:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.21s           2024-03-12T01:32:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:32:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.31s           2024-03-12T01:32:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.31s           2024-03-12T01:32:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.20s           2024-03-12T01:32:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:32:34
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:32:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:32:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:32:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:32:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:32:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:32:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:32:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:32:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:32:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.31s           2024-03-12T01:32:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:32:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.31s           2024-03-12T01:32:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:32:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:32:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.20s           2024-03-12T01:32:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.32s           2024-03-12T01:32:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.32s           2024-03-12T01:32:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2024-03-12T01:32:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.31s           2024-03-12T01:32:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:32:38
+================================================================================
+[2024-03-11 22:33:18,029] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.11s           2024-03-12T01:32:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:32:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:32:59
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2024-03-12T01:32:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2024-03-12T01:32:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:33:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:33:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:33:02
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.31s           2024-03-12T01:33:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:33:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:33:02
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:33:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.22s           2024-03-12T01:33:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.31s           2024-03-12T01:33:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:33:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:32:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:32:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:32:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:32:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:33:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:32:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.22s           2024-03-12T01:33:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.71s           2024-03-12T01:33:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:32:53
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:32:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:32:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.32s           2024-03-12T01:33:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:32:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.20s           2024-03-12T01:32:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:33:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:32:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2024-03-12T01:32:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:32:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:33:15
+================================================================================
+[2024-03-11 22:33:48,073] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:33:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.12s           2024-03-12T01:33:34
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2024-03-12T01:33:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:33:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:33:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:33:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:33:39
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:33:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.31s           2024-03-12T01:33:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:33:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2024-03-12T01:33:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:33:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.22s           2024-03-12T01:33:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:33:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.22s           2024-03-12T01:33:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:33:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.32s           2024-03-12T01:33:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.20s           2024-03-12T01:33:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:33:26
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:33:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:33:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.22s           2024-03-12T01:33:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.71s           2024-03-12T01:33:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.20s           2024-03-12T01:33:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:33:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:33:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.32s           2024-03-12T01:33:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:33:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.31s           2024-03-12T01:33:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:33:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:33:31
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.41s           2024-03-12T01:33:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.22s           2024-03-12T01:33:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:33:15
+================================================================================
+[2024-03-11 22:34:18,453] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:33:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:34:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:34:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:34:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:34:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:33:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:34:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:33:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.32s           2024-03-12T01:33:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:34:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.20s           2024-03-12T01:33:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:33:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:33:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:34:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.22s           2024-03-12T01:33:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:34:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.31s           2024-03-12T01:34:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:33:59
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:34:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:33:53
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:34:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:33:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:33:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:34:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.22s           2024-03-12T01:34:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:34:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.20s           2024-03-12T01:33:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:34:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.32s           2024-03-12T01:34:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:33:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:34:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2024-03-12T01:33:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.22s           2024-03-12T01:33:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:33:52
+================================================================================
+[2024-03-11 22:34:49,601] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:34:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:34:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:34:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:34:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:34:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.22s           2024-03-12T01:34:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:34:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:34:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.22s           2024-03-12T01:34:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.31s           2024-03-12T01:34:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:34:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:34:26
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:34:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.31s           2024-03-12T01:34:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:34:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:34:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:34:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:34:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:34:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:34:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:34:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:34:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.31s           2024-03-12T01:34:34
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:34:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.22s           2024-03-12T01:34:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:34:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:34:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:34:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:34:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:34:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:34:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2024-03-12T01:34:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.20s           2024-03-12T01:34:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:34:31
+================================================================================
+[2024-03-11 22:35:20,118] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:34:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:34:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.12s           2024-03-12T01:35:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:35:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:35:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:34:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:35:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:35:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.21s           2024-03-12T01:34:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:35:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:35:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:35:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:35:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.31s           2024-03-12T01:34:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:35:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:34:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:34:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:34:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:34:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.31s           2024-03-12T01:35:12
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  1.18s           2024-03-12T01:34:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:35:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.31s           2024-03-12T01:35:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.93s           2024-03-12T01:34:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.31s           2024-03-12T01:34:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.20s           2024-03-12T01:34:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.22s           2024-03-12T01:35:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:34:59
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:34:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:35:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:34:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2024-03-12T01:35:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:35:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:35:08
+================================================================================
+[2024-03-11 22:35:50,532] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:35:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2024-03-12T01:35:34
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2024-03-12T01:35:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:35:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:35:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.11s           2024-03-12T01:35:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:35:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.31s           2024-03-12T01:35:39
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.21s           2024-03-12T01:35:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:35:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:35:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:35:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:35:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:35:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:35:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:35:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.11s           2024-03-12T01:35:24
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:35:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:35:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:35:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:35:31
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:35:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.31s           2024-03-12T01:35:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:35:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:35:34
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:35:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.22s           2024-03-12T01:35:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:35:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.22s           2024-03-12T01:35:26
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.41s           2024-03-12T01:35:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:35:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.20s           2024-03-12T01:35:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:35:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:35:45
+================================================================================
+[2024-03-11 22:36:20,584] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:35:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:36:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:36:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:35:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:35:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:36:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:35:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.41s           2024-03-12T01:36:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.21s           2024-03-12T01:36:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:35:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:35:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:35:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:36:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:36:02
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:35:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:35:59
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:36:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.20s           2024-03-12T01:35:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.22s           2024-03-12T01:36:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:35:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:36:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:35:53
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:35:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:36:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:36:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:36:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.22s           2024-03-12T01:35:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:36:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:36:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:36:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:36:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.32s           2024-03-12T01:36:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:35:42
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:36:19
+================================================================================
+[2024-03-11 22:36:40,372] {manager.py:690} INFO - Searching for files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-11 22:36:40,432] {manager.py:693} INFO - There are 34 files in /home/lafuente/airflowAPI/airflow_pipeline/dags
+[2024-03-11 22:36:50,832] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:36:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:36:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:36:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:36:23
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:36:24
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:36:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:36:26
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.41s           2024-03-12T01:36:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.52s           2024-03-12T01:36:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.21s           2024-03-12T01:36:31
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.32s           2024-03-12T01:36:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:36:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2024-03-12T01:36:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:36:39
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:36:28
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:36:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.41s           2024-03-12T01:36:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:36:33
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.72s           2024-03-12T01:36:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:36:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.42s           2024-03-12T01:36:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.20s           2024-03-12T01:36:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:36:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.71s           2024-03-12T01:36:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.21s           2024-03-12T01:36:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:36:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:36:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:36:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.71s           2024-03-12T01:36:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:36:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.31s           2024-03-12T01:36:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.52s           2024-03-12T01:36:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.31s           2024-03-12T01:36:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:36:19
+================================================================================
+[2024-03-11 22:37:21,061] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:37:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.11s           2024-03-12T01:36:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.11s           2024-03-12T01:36:59
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2024-03-12T01:37:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2024-03-12T01:37:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:37:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.31s           2024-03-12T01:37:04
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.21s           2024-03-12T01:37:06
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.31s           2024-03-12T01:37:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.31s           2024-03-12T01:37:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:37:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.21s           2024-03-12T01:37:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.41s           2024-03-12T01:36:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.41s           2024-03-12T01:37:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:37:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:36:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.41s           2024-03-12T01:36:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:37:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.72s           2024-03-12T01:36:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.21s           2024-03-12T01:37:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.42s           2024-03-12T01:36:46
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:37:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:36:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.71s           2024-03-12T01:36:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.51s           2024-03-12T01:36:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:36:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:36:38
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.21s           2024-03-12T01:36:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.71s           2024-03-12T01:36:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.31s           2024-03-12T01:37:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.41s           2024-03-12T01:37:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.52s           2024-03-12T01:36:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:37:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.61s           2024-03-12T01:36:53
+================================================================================
+[2024-03-11 22:37:51,179] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:37:15
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2024-03-12T01:37:39
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:37:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:37:35
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:37:36
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:37:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:37:37
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.31s           2024-03-12T01:37:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.31s           2024-03-12T01:37:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.22s           2024-03-12T01:37:44
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:37:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.31s           2024-03-12T01:37:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.41s           2024-03-12T01:37:27
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.41s           2024-03-12T01:37:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:37:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2024-03-12T01:37:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:37:22
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:37:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:37:29
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.31s           2024-03-12T01:37:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:37:30
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:37:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.54s           2024-03-12T01:37:24
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:37:31
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.31s           2024-03-12T01:37:32
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2024-03-12T01:37:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.31s           2024-03-12T01:37:25
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.20s           2024-03-12T01:37:40
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2024-03-12T01:37:34
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:37:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.41s           2024-03-12T01:37:18
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.31s           2024-03-12T01:37:26
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:37:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2024-03-12T01:37:29
+================================================================================
+[2024-03-11 22:38:21,278] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.21s           2024-03-12T01:37:54
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.35s           2024-03-12T01:38:16
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.21s           2024-03-12T01:37:41
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2024-03-12T01:38:10
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2024-03-12T01:38:11
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.21s           2024-03-12T01:37:57
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.21s           2024-03-12T01:38:12
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.31s           2024-03-12T01:37:45
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.21s           2024-03-12T01:37:58
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.20s           2024-03-12T01:38:20
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.21s           2024-03-12T01:37:47
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.31s           2024-03-12T01:37:48
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.20s           2024-03-12T01:38:03
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2024-03-12T01:37:53
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.21s           2024-03-12T01:37:49
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.20s           2024-03-12T01:38:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.21s           2024-03-12T01:38:00
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.21s           2024-03-12T01:37:55
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2024-03-12T01:38:05
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.31s           2024-03-12T01:37:50
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2024-03-12T01:38:07
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.21s           2024-03-12T01:37:51
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2024-03-12T01:38:08
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.21s           2024-03-12T01:38:13
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.31s           2024-03-12T01:38:14
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.41s           2024-03-12T01:38:17
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.21s           2024-03-12T01:38:09
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.20s           2024-03-12T01:38:21
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.20s           2024-03-12T01:38:19
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.21s           2024-03-12T01:37:43
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2024-03-12T01:37:56
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.21s           2024-03-12T01:38:01
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.21s           2024-03-12T01:37:52
+/home/lafuente/airflowAPI/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.54s           2024-03-12T01:38:04
+================================================================================
